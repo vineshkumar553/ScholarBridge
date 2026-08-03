@@ -696,7 +696,15 @@ nav .container {
 
     .scholarship-card {
         padding: 24px;
+        border: 1px dashed var(--primary);
     }
+    .scholarship-card:hover {
+        transform: none;
+        border-top: 1px solid var(--border);
+        box-shadow: var(--shadow);
+        border-top: 1px dashed var(--primary);
+    }
+
 }
 
 @media (max-width: 768px) {
