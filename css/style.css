@@ -112,10 +112,38 @@ nav .container {
 }
 
 .nav-links a {
+    position: relative;
     color: var(--text-light);
     font-weight: 600;
     font-size: 1rem;
     transition: var(--transition);
+}
+
+.nav-links a::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -8px;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--primary);
+
+    border-radius: 50px;
+
+    transition: .3s ease;
+
+}
+
+.nav-links a:hover::after {
+
+    width: 100%;
+
 }
 
 .nav-links a:hover {
@@ -1078,7 +1106,7 @@ nav .container {
 
     fill: none;
 
-     stroke: #8FB6FF;
+    stroke: #8FB6FF;
 
     stroke-width: 2.5;
 
@@ -1115,195 +1143,198 @@ nav .container {
 
 }
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
 
-.why{
+    .why {
 
-padding:80px 0;
+        padding: 80px 0;
 
-}
+    }
 
-.journey-row{
+    .journey-row {
 
-margin-bottom:170px;
+        margin-bottom: 170px;
 
-}
+    }
 
-.passport-card{
+    .passport-card {
 
-width:310px;
+        width: 310px;
 
-padding:24px;
+        padding: 24px;
 
-}
+    }
 
-.passport-content{
+    .passport-content {
 
-gap:14px;
+        gap: 14px;
 
-}
+    }
 
-.passport-icon{
+    .passport-icon {
 
-width:55px;
+        width: 55px;
 
-height:55px;
+        height: 55px;
 
-}
+    }
 
-.passport-icon img{
+    .passport-icon img {
 
-width:30px;
+        width: 30px;
 
-}
+    }
 
-.passport-text h3{
+    .passport-text h3 {
 
-font-size:1.15rem;
+        font-size: 1.15rem;
 
-}
+    }
 
-.passport-text p{
+    .passport-text p {
 
-font-size:.92rem;
+        font-size: .92rem;
 
-}
+    }
 
-.passport-page{
+    .passport-page {
 
-font-size:1.7rem;
+        font-size: 1.7rem;
 
-}
+    }
 
-.journey-plane{
+    .journey-plane {
 
-width:65px;
+        width: 65px;
 
-height:65px;
+        height: 65px;
 
-left:53%;
+        left: 53%;
 
-top:58%;
+        top: 58%;
 
-}
+    }
 
-.journey-plane img{
+    .journey-plane img {
 
-width:28px;
+        width: 28px;
 
-height:28px;
+        height: 28px;
 
-}
+    }
 
-.flight-line{
+    .flight-line {
 
-width:240px;
+        width: 240px;
 
-height:150px;
+        height: 150px;
 
-left:39%;
+        left: 39%;
 
-top:65%;
+        top: 65%;
 
-}
-
-}
-@media (max-width:992px){
-
-.journey{
-
-display:flex;
-
-flex-direction:column;
-
-gap:50px;
+    }
 
 }
 
-.journey-row{
+@media (max-width:992px) {
 
-display:flex;
+    .journey {
 
-flex-direction:column;
+        display: flex;
 
-align-items:center;
+        flex-direction: column;
+
+        gap: 50px;
+
+    }
+
+    .journey-row {
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
 
 
 
-margin-bottom:0;
+        margin-bottom: 0;
 
-}
+    }
 
 
 
-.passport-card{
+    .passport-card {
 
-width:100%;
+        width: 100%;
 
-max-width:420px;
+        max-width: 420px;
 
-}
+    }
 
-.journey-plane{
+    .journey-plane {
 
-display:none;
+        display: none;
 
-}
+    }
 
-.flight-line{
+    .flight-line {
 
-display:none;
+        display: none;
 
-}
-
-}
-@media (max-width:420px){
-
-.passport-card{
-
-padding:18px;
-
-}
-
-.passport-content{
-
-flex-direction:column;
-
-align-items:flex-start;
+    }
 
 }
 
-.passport-icon{
+@media (max-width:420px) {
 
-margin-bottom:6px;
+    .passport-card {
 
-}
+        padding: 18px;
 
-.passport-bottom{
+    }
 
-flex-direction:column;
+    .passport-content {
 
-gap:12px;
+        flex-direction: column;
 
-}
+        align-items: flex-start;
 
-.passport-page{
+    }
 
-font-size:1.3rem;
+    .passport-icon {
 
-}
-.passport-watermark{
+        margin-bottom: 6px;
 
-right:-10px;
+    }
 
-bottom:-10px;
+    .passport-bottom {
 
-}
+        flex-direction: column;
 
-.passport-watermark img{
+        gap: 12px;
 
-width:120px;
+    }
 
-}
+    .passport-page {
+
+        font-size: 1.3rem;
+
+    }
+
+    .passport-watermark {
+
+        right: -10px;
+
+        bottom: -10px;
+
+    }
+
+    .passport-watermark img {
+
+        width: 120px;
+
+    }
 
 }
