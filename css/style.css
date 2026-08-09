@@ -281,6 +281,7 @@ nav .container {
     align-self: flex-start;
 
     padding: 10px 20px;
+    gap: 10px;
 
     background: var(--primary-light);
     color: var(--primary);
@@ -321,6 +322,10 @@ nav .container {
 
 .btn-primary,
 .btn-secondary {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
     min-width: 200px;
     padding: 17px 28px;
 
@@ -530,9 +535,10 @@ nav .container {
 }
 
 .section-badge {
-    display: inline-block;
+    display: inline-flex;
     background: var(--primary-light);
     font-size: 1rem;
+    gap: 10px;
     font-weight: 600;
     border-radius: 50px;
     padding: 10px 20px;
@@ -805,6 +811,10 @@ nav .container {
 .journey {
     position: relative;
     margin-top: 80px;
+}
+.section-badge{
+    display: inline-flex;
+    gap: 10px;
 }
 
 
@@ -1335,6 +1345,451 @@ nav .container {
 
         width: 120px;
 
+    }
+
+}
+/* =========================
+   HOW IT WORKS
+========================= */
+
+.how-it-works {
+    padding: 110px 0;
+    background: #F8FAFC;
+}
+
+
+/* =========================
+   JOURNEY TRACK
+========================= */
+
+.process-track {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+
+    margin-top: 80px;
+}
+
+
+/* Dashed journey line */
+
+.process-track::before {
+    content: "";
+
+    position: absolute;
+
+    top: 31px;
+    left: 11%;
+    right: 11%;
+
+    border-top: 2px dashed #BFDBFE;
+
+    z-index: 0;
+}
+
+
+/* =========================
+   PROCESS STEP
+========================= */
+
+.process-step {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* =========================
+   STEP NUMBER
+========================= */
+
+.step-marker {
+    position: relative;
+
+    width: 64px;
+    height: 64px;
+
+    margin: 0 auto 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+
+    border: 2px solid #BFDBFE;
+    border-radius: 50%;
+
+    box-shadow:
+        0 8px 20px rgba(37, 99, 235, .08);
+
+    color: var(--primary);
+
+    font-size: .95rem;
+    font-weight: 800;
+}
+
+
+/* Small center detail */
+
+.step-marker::after {
+    content: "";
+
+    position: absolute;
+
+    width: 8px;
+    height: 8px;
+
+    bottom: -5px;
+
+    background: var(--primary);
+
+    border: 3px solid #F8FAFC;
+    border-radius: 50%;
+}
+
+
+/* =========================
+   GATE CARD
+========================= */
+
+.gate-card {
+    position: relative;
+
+    min-height: 355px;
+
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+
+    border: 1px solid #E2E8F0;
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 28px rgba(15, 23, 42, .055);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+}
+
+
+/* Hover blue line */
+
+.gate-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    width: 0;
+    height: 4px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #60A5FA,
+            #2563EB,
+            #60A5FA
+        );
+
+    transform: translateX(-50%);
+
+    transition: width .35s ease;
+}
+
+
+.gate-card:hover::before {
+    width: 100%;
+}
+
+
+.gate-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #DBEAFE;
+
+    box-shadow:
+        0 20px 45px rgba(15, 23, 42, .10);
+}
+
+
+/* =========================
+   GATE HEADER
+========================= */
+
+.gate-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 26px;
+}
+
+
+.gate-number {
+    color: #94A3B8;
+
+    font-size: .68rem;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.gate-status {
+    padding: 6px 10px;
+
+    background: #EFF6FF;
+
+    border: 1px solid #DBEAFE;
+    border-radius: 50px;
+
+    color: var(--primary);
+
+    font-size: .6rem;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   ICON
+========================= */
+
+.gate-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 22px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #EFF6FF,
+            #F8FBFF
+        );
+
+    border: 1px solid #DBEAFE;
+    border-radius: 17px;
+
+    color: var(--primary);
+
+    font-size: 1.35rem;
+
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, .9),
+        0 5px 14px rgba(37, 99, 235, .08);
+
+    transition: transform .3s ease;
+}
+
+
+.gate-card:hover .gate-icon {
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.gate-content h3 {
+    margin-bottom: 11px;
+
+    color: var(--text);
+
+    font-size: 1.18rem;
+    font-weight: 700;
+
+    letter-spacing: -.4px;
+}
+
+
+.gate-content p {
+    color: #64748B;
+
+    font-size: .91rem;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   GATE FOOTER
+========================= */
+
+.gate-bottom {
+    margin-top: auto;
+    padding-top: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    border-top: 1px dashed #CBD5E1;
+}
+
+
+.gate-bottom small {
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: #94A3B8;
+
+    font-size: .6rem;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+
+.gate-bottom strong {
+    display: block;
+
+    color: var(--primary);
+
+    font-size: .72rem;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+
+.gate-bottom i {
+    color: #BFDBFE;
+
+    font-size: .85rem;
+
+    transition:
+        transform .3s ease,
+        color .3s ease;
+}
+
+
+.gate-card:hover .gate-bottom i {
+    transform: translateX(4px);
+
+    color: var(--primary);
+}
+.how-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1100px) {
+
+    .how-it-works {
+        padding: 90px 0;
+    }
+
+    .process-track {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 55px 30px;
+
+        max-width: 800px;
+        margin: 70px auto 0;
+    }
+
+    .process-track::before {
+        display: none;
+    }
+
+    .gate-card {
+        min-height: 330px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .how-it-works {
+        padding: 80px 0;
+    }
+
+    .process-track {
+        grid-template-columns: 1fr;
+
+        max-width: 430px;
+
+        margin-top: 60px;
+
+        gap: 38px;
+    }
+
+    .process-step {
+        position: relative;
+    }
+
+    .step-marker {
+        margin-bottom: 20px;
+    }
+
+    .gate-card {
+        min-height: 320px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 420px) {
+
+    .gate-card {
+        min-height: 315px;
+
+        padding: 20px;
+
+        border-radius: 20px;
+    }
+
+    .gate-top {
+        margin-bottom: 22px;
+    }
+
+    .gate-icon {
+        width: 55px;
+        height: 55px;
+
+        font-size: 1.2rem;
+    }
+
+    .gate-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .gate-content p {
+        font-size: .88rem;
     }
 
 }
