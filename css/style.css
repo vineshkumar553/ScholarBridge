@@ -329,7 +329,7 @@ nav .container {
     min-width: 200px;
     padding: 17px 28px;
 
-    border-radius: 20px;
+    border-radius: 15px;
 
     font-size: 1rem;
     font-weight: 600;
@@ -1778,6 +1778,435 @@ nav .container {
 
     .gate-content p {
         font-size: .88rem;
+    }
+
+}
+/* =========================
+   ABOUT SCHOLARBRIDGE
+========================= */
+
+.about-scholarbridge {
+    padding: 110px 0;
+    background: var(--surface);
+}
+
+/* =========================
+   BRIDGE JOURNEY
+========================= */
+
+.bridge-journey {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1.15fr 1fr;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-top: 85px;
+}
+
+
+/* =========================
+   LEFT + RIGHT POINTS
+========================= */
+
+.bridge-point {
+    position: relative;
+
+    max-width: 320px;
+}
+
+.bridge-start {
+    justify-self: start;
+}
+
+.bridge-end {
+    justify-self: end;
+    text-align: right;
+}
+
+
+/* Icons */
+
+.bridge-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 22px;
+
+    background: #EFF6FF;
+
+    border: 1px solid #DBEAFE;
+    border-radius: 18px;
+
+    box-shadow: 0 8px 20px rgba(37, 99, 235, .08);
+}
+
+.bridge-end .bridge-icon {
+    margin-left: auto;
+}
+
+.bridge-icon img {
+    width: 30px;
+    height: 30px;
+
+    object-fit: contain;
+}
+
+
+/* Labels */
+
+.bridge-label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: var(--primary);
+
+    font-size: .68rem;
+    font-weight: 800;
+
+    letter-spacing: 1.7px;
+}
+
+
+/* Text */
+
+.bridge-point h3 {
+    margin-bottom: 12px;
+
+    color: var(--text);
+
+    font-size: 1.3rem;
+    line-height: 1.35;
+
+    letter-spacing: -.5px;
+}
+
+.bridge-point p {
+    color: #64748B;
+
+    font-size: .92rem;
+
+    line-height: 1.75;
+}
+
+
+/* =========================
+   CENTER BRIDGE
+========================= */
+
+.bridge-center {
+    position: relative;
+
+    min-height: 260px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Left and Right Bridge Lines */
+
+.bridge-line {
+    position: absolute;
+
+    top: 50%;
+
+    width: 46%;
+    height: 70px;
+
+    border-top: 2px solid #b6d4f8;
+}
+
+.bridge-line-left {
+    left: -10%;
+
+    border-radius: 0 70px 0 0;
+
+    transform: rotate(-8deg);
+}
+
+.bridge-line-right {
+    right: -10%;
+
+    border-radius: 70px 0 0 0;
+
+    transform: rotate(8deg);
+}
+
+
+/* Center Main Element */
+
+.bridge-core {
+    position: relative;
+
+    width: 230px;
+    min-height: 190px;
+
+    padding: 28px 22px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            145deg,
+            #FFFFFF,
+            #F8FBFF
+        );
+
+    border: 1px solid #DBEAFE;
+    border-radius: 28px;
+
+    box-shadow:
+        0 10px 40px rgba(37, 99, 235, .12);
+
+    z-index: 2;
+
+    transition: .3s ease;
+}
+
+.bridge-core:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 24px 55px rgba(37, 99, 235, .17);
+}
+
+
+/* Blue top detail */
+
+.bridge-core::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    width: 60px;
+    height: 4px;
+
+    transform: translateX(-50%);
+
+    background: var(--primary);
+
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Center icon */
+
+.bridge-core-icon {
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 18px;
+
+    background: #EFF6FF;
+
+    border: 1px solid #DBEAFE;
+    border-radius: 20px;
+}
+
+.bridge-core-icon img {
+    width: 32px;
+    height: 32px;
+
+    object-fit: contain;
+}
+
+
+/* Center Typography */
+
+.bridge-core span {
+    margin-bottom: 5px;
+
+    color: #94A3B8;
+
+    font-size: .65rem;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+.bridge-core h3 {
+    margin-bottom: 8px;
+
+    color: var(--primary);
+
+    font-size: 1.6rem;
+
+    letter-spacing: -.6px;
+}
+
+.bridge-core p {
+    color: #64748B;
+
+    font-size: .82rem;
+    font-weight: 600;
+}
+
+
+/* =========================
+   SUMMARY
+========================= */
+
+.about-summary {
+    max-width: 620px;
+
+    margin: 70px auto 0;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    background: #F8FAFC;
+
+    border: 1px solid #E2E8F0;
+    border-radius: 18px;
+}
+
+
+.summary-item {
+    text-align: center;
+}
+
+
+.summary-item strong {
+    display: block;
+
+    color: var(--primary);
+
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+
+.summary-item span {
+    color: #64748B;
+
+    font-size: .78rem;
+    font-weight: 600;
+}
+
+
+.summary-divider {
+    width: 1px;
+    height: 32px;
+
+    background: #E2E8F0;
+}
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1100px) {
+
+    .about-scholarbridge {
+        padding: 90px 0;
+    }
+
+    .bridge-journey {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+
+        max-width: 650px;
+        margin: 70px auto 0;
+    }
+
+    .bridge-point {
+        max-width: 100%;
+        text-align: center;
+        justify-self: center;
+    }
+
+    .bridge-icon,
+    .bridge-end .bridge-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bridge-center {
+        min-height: auto;
+    }
+
+    .bridge-line {
+        display: none;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .about-scholarbridge {
+        padding: 80px 0;
+    }
+
+    .bridge-journey {
+        margin-top: 55px;
+        gap: 40px;
+    }
+
+    .bridge-core {
+        width: 100%;
+        max-width: 320px;
+
+        min-height: 180px;
+    }
+
+    .about-summary {
+        gap: 18px;
+
+        padding: 18px 20px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 420px) {
+
+    .about-summary {
+        flex-direction: column;
+
+        gap: 16px;
+    }
+
+    .summary-divider {
+        width: 50px;
+        height: 1px;
+    }
+
+    .bridge-point h3 {
+        font-size: 1.15rem;
     }
 
 }
