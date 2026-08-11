@@ -17,3 +17,20 @@ closeBtn.addEventListener("click", function () {
 sidelinks.addEventListener("click", function () {
     sidebar.classList.remove("active");
 });
+const faqQuestions = document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach((question) => {
+    question.addEventListener("click", () => {
+
+        const faqItem = question.parentElement;
+        const faqIcon = question.querySelector(".faq-icon");
+
+        faqItem.classList.toggle("active");
+
+        const isOpen = faqItem.classList.contains("active");
+
+        question.setAttribute("aria-expanded", isOpen);
+
+        faqIcon.textContent = isOpen ? "−" : "+";
+    });
+});
