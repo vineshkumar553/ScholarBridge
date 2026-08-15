@@ -645,9 +645,9 @@ nav .container {
 .scholarship-card {
     overflow: hidden;
     background: white;
-    border-radius: 17px;
+    border-radius: 25px;
     box-shadow: var(--shadow);
-    padding: 29px;
+    padding: 22px;
     border: 1px solid var(--border);
     transition: 0.3s ease;
 }
@@ -661,7 +661,7 @@ nav .container {
     left: 50%;
 
     width: 0;
-    height: 3px;
+    height: 4px;
 
     background: linear-gradient(90deg,
             #60A5FA,
@@ -679,12 +679,10 @@ nav .container {
 
 .scholarship-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(37, 99, 235, .18);
-
 }
 
 .card-header {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .country {
@@ -732,9 +730,9 @@ nav .container {
     font-size: 1.6rem;
     font-weight: 800;
     color: var(--heading);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     line-height: 1.6rem;
-    min-height: 70px;
+    min-height: 50px;
 }
 
 .degree-tags {
@@ -742,6 +740,7 @@ nav .container {
     grid-template-columns: repeat(2, auto);
     justify-content: center;
     gap: 8px;
+    transform: translateY(-20px);
 }
 
 .three-tags span:last-child {
@@ -769,17 +768,13 @@ nav .container {
 .funding-status {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    background: var(--success-light);
+    gap: 6px;background: transparent;
+    padding: 0;
+    margin: 16px 0;
     color: var(--success);
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 14px;
     font-weight: 600;
     font-size: 0.85rem;
-    border: 1px solid var(--border);
-
 }
 
 .view-btn {
@@ -790,7 +785,7 @@ nav .container {
     border: 1px solid var(--primary);
     border-radius: 10px;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 14px;
     transition: var(--transition);
 }
 
@@ -825,7 +820,6 @@ nav .container {
 
     .scholarship-card:hover {
         transform: none;
-        box-shadow: none;
     }
 
 }
@@ -862,7 +856,6 @@ nav .container {
         font-size: 0.9rem;
     }
 }
-
 .why {
     padding: 100px 0;
     background: var(--surface);
@@ -1118,7 +1111,7 @@ nav .container {
 
     left: 54%;
     top: 54%;
-    margin-top: 25px;
+    margin-top: 42px;
 
     transform: translate(-50%, -50%) rotate(42deg);
 
@@ -1154,7 +1147,7 @@ nav .container {
     width: 29px;
     height: 29px;
     object-fit: contain;
-
+    
 }
 
 .flight-line {
@@ -1207,6 +1200,7 @@ nav .container {
 
     transform:
         translate(-50%, -50%) rotate(50deg) scale(1.08);
+    border: 1px solid rgba(129, 190, 254, 0.555);
 
     box-shadow:
         0 22px 45px rgba(59, 130, 246, .25),
