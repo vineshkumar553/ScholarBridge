@@ -643,6 +643,7 @@ nav .container {
 }
 
 .scholarship-card {
+    position: relative;
     overflow: hidden;
     background: white;
     border-radius: 25px;
