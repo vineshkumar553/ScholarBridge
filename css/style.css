@@ -81,7 +81,7 @@ nav {
     z-index: 1000;
     height: 80px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.575);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
 }
