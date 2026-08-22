@@ -1,0 +1,252 @@
+[
+    {
+        "id": "turkiye-burslari",
+        "name": "Turkey Burslari",
+        "country": "Türkiye",
+        "flag": "images/flags/tr.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "stipendium-hungaricum",
+        "name": "Stipendium Hungaricum",
+        "country": "Hungary",
+        "flag": "images/flags/hu.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Partially Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "mext-scholarship",
+        "name": "MEXT Scholarship",
+        "country": "Japan",
+        "flag": "images/flags/jp.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "global-korea-scholarship",
+        "name": "Global Korea Scholarship",
+        "country": "South Korea",
+        "flag": "images/flags/kr.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "romania-government-scholarship",
+        "name": "Romania Government Scholarship",
+        "country": "Romania",
+        "flag": "images/flags/ro.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "brunei-government-scholarship",
+        "name": "Brunei Government Scholarship",
+        "country": "Brunei",
+        "flag": "images/flags/bn.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "heydar-aliyev-grant",
+        "name": "Heydar Aliyev International Education Grant",
+        "country": "Azerbaijan",
+        "flag": "images/flags/az.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "chevening-scholarship",
+        "name": "Chevening Scholarship",
+        "country": "United Kingdom",
+        "flag": "images/flags/gb.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "commonwealth-masters",
+        "name": "Commonwealth Master's Scholarship",
+        "country": "United Kingdom",
+        "flag": "images/flags/gb.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "maastricht-high-potential",
+        "name": "Maastricht University NL-High Potential Scholarship",
+        "country": "Netherlands",
+        "flag": "images/flags/nl.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Fully Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "lester-b-pearson",
+        "name": "Lester B. Pearson International Scholarship",
+        "country": "Canada",
+        "flag": "images/flags/ca.svg",
+        "degree": [
+            "Bachelor"
+        ],
+        "funding": "Fully Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "daad-epos",
+        "name": "DAAD EPOS Scholarship",
+        "country": "Germany",
+        "flag": "images/flags/de.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "swiss-government-excellence",
+        "name": "Swiss Government Excellence Scholarship",
+        "country": "Switzerland",
+        "flag": "images/flags/ch.svg",
+        "degree": [
+            "PhD"
+        ],
+        "funding": "Partially Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "csc-scholarship",
+        "name": "Chinese Government Scholarship (CSC)",
+        "country": "China",
+        "flag": "images/flags/cn.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Government Scholarship"
+    },
+    {
+        "id": "university-of-twente-scholarship",
+        "name": "University of Twente Scholarship",
+        "country": "Netherlands",
+        "flag": "images/flags/nl.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "bristol-think-big",
+        "name": "Bristol Think Big Scholarship",
+        "country": "United Kingdom",
+        "flag": "images/flags/gb.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "griffith-remarkable",
+        "name": "Griffith Remarkable Scholarship",
+        "country": "Australia",
+        "flag": "images/flags/au.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "auckland-international-excellence",
+        "name": "University of Auckland International Student Excellence Scholarship",
+        "country": "New Zealand",
+        "flag": "images/flags/nz.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "macquarie-vice-chancellor",
+        "name": "Macquarie Vice-Chancellor's International Scholarship",
+        "country": "Australia",
+        "flag": "images/flags/au.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "international-talents-unibo",
+        "name": "International Talents @Unibo",
+        "country": "Italy",
+        "flag": "images/flags/it.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "nl-scholarship-twente",
+        "name": "NL Scholarship - University of Twente",
+        "country": "Netherlands",
+        "flag": "images/flags/nl.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    }
+]

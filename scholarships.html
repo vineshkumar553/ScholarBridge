@@ -76,42 +76,145 @@
 
     </header>
     <section class="scholarships-hero">
-    <div class="container">
+        <div class="container">
 
-        <div class="scholarships-hero-content">
+            <div class="scholarships-hero-content">
 
-            <span class="section-badge hero"> 
-                <img src="images/icons/search.svg" alt="search icon">
-                START YOUR SEARCH
-            </span>
-
-            <h1>
-                Find Scholarships That Match
-                <span> Your Goals</span>
-            </h1>
-
-            <p>
-                Search scholarship opportunities by country, degree level
-                and funding type to find options that suit you.
-            </p>
-
-            <div class="hero-meta">
-                <span>
-                    <i class="fa-solid fa-earth-americas"></i>
-                    Global opportunities
+                <span class="section-badge hero">
+                    <img src="images/icons/search.svg" alt="search icon">
+                    START YOUR SEARCH
                 </span>
 
-                <span class="meta-dot"></span>
+                <h1>
+                    Find Scholarships That Match
+                    <span> Your Goals</span>
+                </h1>
 
-                <span>
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    Multiple degree levels
-                </span>
+                <p>
+                    Search scholarship opportunities by country, degree level
+                    and funding type to find options that suit you.
+                </p>
+
+                <div class="hero-meta">
+                    <span>
+                        <i class="fa-solid fa-earth-americas"></i>
+                        Global opportunities
+                    </span>
+
+                    <span class="meta-dot"></span>
+
+                    <span>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Multiple degree levels
+                    </span>
+                </div>
+
             </div>
 
         </div>
+    </section>
+    <section class="scholarships-section" id="scholarships">
+        <div class="container">
 
-    </div>
-</section>
+            <div class="section-heading">
+                <span class="section-badge">
+                    <img src="images/icons/award.svg" alt="award icon">
+                    Scholarships
+                </span>
+
+                <h2>Explore Scholarships</h2>
+
+                <p>
+                    Search and filter scholarships to find options that match your study plans.
+                </p>
+            </div>
+
+            <div class="scholarship-search">
+                <img src="images/icons/search.svg" alt="search icon">
+                <input type="text" id="searchInput" placeholder="Search scholarships by name">
+            </div>
+
+            <div class="filters-panel">
+
+                <div class="filter-row">
+                    <div class="filter-name">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <span>Country</span>
+                    </div>
+
+                    <div class="filter-options" data-filter="country">
+                        <button type="button" class="filter-chip active" data-value="all">All</button>
+                        <button type="button" class="filter-chip" data-value="turkiye">Türkiye</button>
+                        <button type="button" class="filter-chip" data-value="united-kingdom">
+                            UK
+                        </button>
+                        <button type="button" class="filter-chip" data-value="china">China</button>
+                        <button type="button" class="filter-chip" data-value="japan">Japan</button>
+                        <button type="button" class="filter-chip" data-value="south-korea">South Korea</button>
+                        <button type="button" class="filter-chip" data-value="italy">Italy</button>
+                    </div>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-name">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>Degree</span>
+                    </div>
+
+                    <div class="filter-options" data-filter="degree">
+                        <button type="button" class="filter-chip active" data-value="all">All</button>
+                        <button type="button" class="filter-chip" data-value="bachelor">Bachelor</button>
+                        <button type="button" class="filter-chip" data-value="master">Master</button>
+                        <button type="button" class="filter-chip" data-value="phd">PhD</button>
+                    </div>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-name">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <span>Funding</span>
+                    </div>
+
+                    <div class="filter-options" data-filter="funding">
+                        <button type="button" class="filter-chip active" data-value="all">All</button>
+                        <button type="button" class="filter-chip" data-value="fully-funded">Fully Funded</button>
+                        <button type="button" class="filter-chip" data-value="partially-funded">Partially
+                            Funded</button>
+                    </div>
+                </div>
+
+                <div class="filter-bottom">
+                    <span>Choose one option from each group to narrow the results.</span>
+
+                    <button type="button" class="clear-filters" id="clearFilters">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        Clear filters
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="results-row">
+                <p id="resultsCount">All scholarships</p>
+            </div>
+
+            <div class="scholarships-grid" id="scholarshipsGrid"></div>
+
+            <div class="no-results" id="noResults">
+                <div class="no-results-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h3>No scholarships found</h3>
+                <p>Try changing your search or filters.</p>
+            </div>
+
+        </div>
+        <div class="load-more-wrap">
+            <button type="button" class="load-more-btn" id="loadMoreBtn">
+                Show More Scholarships
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+        </div>
+    </section>
     <script src="js/scholarships.js"></script>
 </body>
