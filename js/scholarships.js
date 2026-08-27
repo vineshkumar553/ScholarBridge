@@ -1,4 +1,4 @@
-// Elements select karo
+
 const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close-btn");
 const sidebar = document.querySelector(".sidebar");
@@ -33,17 +33,13 @@ async function loadScholarships() {
     let visibleCount = 9;
     let currentList = scholarships;
 
-    let selectedFilters = {
-        country: "all",
-        degree: "all",
-        funding: "all"
-    };
-
-    function normalizeValue(value) {
+    function cleanValue(value) {
         return value
             .normalize("NFD")
             .replace(/[\u0300-\u036f]/g, "")
+            .replace(/ı/g, "i")
             .toLowerCase()
+            .trim()
             .replace(/\s+/g, "-");
     }
 
@@ -53,9 +49,15 @@ async function loadScholarships() {
 
         const visibleScholarships = list.slice(0, visibleCount);
 
-        visibleScholarships.forEach(function (scholarship) {
+        visibleScholarships.forEach(function(scholarship) {
             const card = document.createElement("article");
             card.classList.add("scholarship-card");
+
+            let fundingClass = "partially-funded";
+
+            if (scholarship.funding === "Fully Funded") {
+                fundingClass = "fully-funded";
+            }
 
             card.innerHTML = `
                 <div class="card-top">
@@ -64,16 +66,18 @@ async function loadScholarships() {
                         <span>${scholarship.country}</span>
                     </div>
 
-                    <span class="funding-badge">${scholarship.funding}</span>
+                    <span class="funding-badge ${fundingClass}">
+                        ${scholarship.funding}
+                    </span>
                 </div>
 
                 <div class="card-content">
                     <h3>${scholarship.name}</h3>
 
                     <div class="degree-list">
-                        ${scholarship.degree.map(function (degree) {
-                return `<span>${degree}</span>`;
-            }).join("")}
+                        ${scholarship.degree.map(function(degree) {
+                            return `<span>${degree}</span>`;
+                        }).join("")}
                     </div>
 
                     <p class="scholarship-type">${scholarship.type}</p>
@@ -107,71 +111,75 @@ async function loadScholarships() {
     function applyFilters() {
         const searchText = searchInput.value.toLowerCase().trim();
 
-        const filteredScholarships = scholarships.filter(function (scholarship) {
-            const matchesSearch = scholarship.name
+        const countryChip = document.querySelector(
+            '[data-filter="country"] .filter-chip.active'
+        );
+
+        const degreeChip = document.querySelector(
+            '[data-filter="degree"] .filter-chip.active'
+        );
+
+        const fundingChip = document.querySelector(
+            '[data-filter="funding"] .filter-chip.active'
+        );
+
+        const country = countryChip.dataset.value;
+        const degree = degreeChip.dataset.value;
+        const funding = fundingChip.dataset.value;
+
+        const filtered = scholarships.filter(function(scholarship) {
+            const searchMatch = scholarship.name
                 .toLowerCase()
                 .includes(searchText);
 
-            const matchesCountry =
-                selectedFilters.country === "all" ||
-                normalizeValue(scholarship.country) === selectedFilters.country;
+            const countryMatch =
+                country === "all" ||
+                cleanValue(scholarship.country) === country;
 
-            const matchesDegree =
-                selectedFilters.degree === "all" ||
-                scholarship.degree.some(function (degree) {
-                    return normalizeValue(degree) === selectedFilters.degree;
+            const degreeMatch =
+                degree === "all" ||
+                scholarship.degree.some(function(item) {
+                    return cleanValue(item) === degree;
                 });
 
-            const matchesFunding =
-                selectedFilters.funding === "all" ||
-                normalizeValue(scholarship.funding) === selectedFilters.funding;
+            const fundingMatch =
+                funding === "all" ||
+                cleanValue(scholarship.funding) === funding;
 
-            return matchesSearch &&
-                matchesCountry &&
-                matchesDegree &&
-                matchesFunding;
+            return searchMatch &&
+                countryMatch &&
+                degreeMatch &&
+                fundingMatch;
         });
 
         visibleCount = 9;
-        renderScholarships(filteredScholarships);
+        renderScholarships(filtered);
     }
 
-    searchInput.addEventListener("input", function () {
-        applyFilters();
-    });
+    searchInput.addEventListener("input", applyFilters);
 
-    filterGroups.forEach(function (group) {
+    filterGroups.forEach(function(group) {
         const chips = group.querySelectorAll(".filter-chip");
 
-        chips.forEach(function (chip) {
-            chip.addEventListener("click", function () {
-                chips.forEach(function (item) {
+        chips.forEach(function(chip) {
+            chip.addEventListener("click", function() {
+                chips.forEach(function(item) {
                     item.classList.remove("active");
                 });
 
                 chip.classList.add("active");
-
-                const filterType = group.dataset.filter;
-                selectedFilters[filterType] = chip.dataset.value;
-
                 applyFilters();
             });
         });
     });
 
-    clearFilters.addEventListener("click", function () {
+    clearFilters.addEventListener("click", function() {
         searchInput.value = "";
 
-        selectedFilters = {
-            country: "all",
-            degree: "all",
-            funding: "all"
-        };
-
-        filterGroups.forEach(function (group) {
+        filterGroups.forEach(function(group) {
             const chips = group.querySelectorAll(".filter-chip");
 
-            chips.forEach(function (chip) {
+            chips.forEach(function(chip) {
                 chip.classList.remove("active");
 
                 if (chip.dataset.value === "all") {
@@ -184,7 +192,7 @@ async function loadScholarships() {
         renderScholarships(scholarships);
     });
 
-    loadMoreBtn.addEventListener("click", function () {
+    loadMoreBtn.addEventListener("click", function() {
         visibleCount = currentList.length;
         renderScholarships(currentList);
     });
@@ -193,3 +201,4 @@ async function loadScholarships() {
 }
 
 loadScholarships();
+    

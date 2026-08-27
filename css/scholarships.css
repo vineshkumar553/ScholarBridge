@@ -844,6 +844,12 @@ nav .container {
     white-space: nowrap;
 }
 
+.funding-badge.partially-funded {
+    background: #fff7ed;
+    color: #c2410c;
+    border: 1px solid #fed7aa;
+}
+
 .card-content {
     margin-top: 24px;
 }

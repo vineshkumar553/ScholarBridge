@@ -39,6 +39,18 @@
         "type": "Government Scholarship"
     },
     {
+        "id": "auckland-international-excellence",
+        "name": "University of Auckland International Student Excellence Scholarship",
+        "country": "New Zealand",
+        "flag": "images/flags/nz.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
         "id": "global-korea-scholarship",
         "name": "Global Korea Scholarship",
         "country": "South Korea",
@@ -111,6 +123,29 @@
         "funding": "Fully Funded",
         "type": "Government Scholarship"
     },
+     {
+        "id": "macquarie-vice-chancellor",
+        "name": "Macquarie Vice-Chancellor's International Scholarship",
+        "country": "Australia",
+        "flag": "images/flags/au.svg",
+        "degree": [
+            "Bachelor",
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "international-talents-unibo",
+        "name": "International Talents @Unibo",
+        "country": "Italy",
+        "flag": "images/flags/it.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Partially Funded",
+        "type": "University Scholarship"
+    },
     {
         "id": "maastricht-high-potential",
         "name": "Maastricht University NL-High Potential Scholarship",
@@ -131,6 +166,17 @@
             "Bachelor"
         ],
         "funding": "Fully Funded",
+        "type": "University Scholarship"
+    },
+    {
+        "id": "nl-scholarship-twente",
+        "name": "NL Scholarship - University of Twente",
+        "country": "Netherlands",
+        "flag": "images/flags/nl.svg",
+        "degree": [
+            "Master"
+        ],
+        "funding": "Partially Funded",
         "type": "University Scholarship"
     },
     {
@@ -198,52 +244,6 @@
         "flag": "images/flags/au.svg",
         "degree": [
             "Bachelor",
-            "Master"
-        ],
-        "funding": "Partially Funded",
-        "type": "University Scholarship"
-    },
-    {
-        "id": "auckland-international-excellence",
-        "name": "University of Auckland International Student Excellence Scholarship",
-        "country": "New Zealand",
-        "flag": "images/flags/nz.svg",
-        "degree": [
-            "Bachelor",
-            "Master"
-        ],
-        "funding": "Partially Funded",
-        "type": "University Scholarship"
-    },
-    {
-        "id": "macquarie-vice-chancellor",
-        "name": "Macquarie Vice-Chancellor's International Scholarship",
-        "country": "Australia",
-        "flag": "images/flags/au.svg",
-        "degree": [
-            "Bachelor",
-            "Master"
-        ],
-        "funding": "Partially Funded",
-        "type": "University Scholarship"
-    },
-    {
-        "id": "international-talents-unibo",
-        "name": "International Talents @Unibo",
-        "country": "Italy",
-        "flag": "images/flags/it.svg",
-        "degree": [
-            "Master"
-        ],
-        "funding": "Partially Funded",
-        "type": "University Scholarship"
-    },
-    {
-        "id": "nl-scholarship-twente",
-        "name": "NL Scholarship - University of Twente",
-        "country": "Netherlands",
-        "flag": "images/flags/nl.svg",
-        "degree": [
             "Master"
         ],
         "funding": "Partially Funded",
