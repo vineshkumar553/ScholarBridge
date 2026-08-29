@@ -10,7 +10,8 @@
             "PhD"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.turkiyeburslari.gov.tr/"
     },
     {
         "id": "stipendium-hungaricum",
@@ -22,8 +23,9 @@
             "Master",
             "PhD"
         ],
-        "funding": "Partially Funded",
-        "type": "Government Scholarship"
+        "funding": "Fully Funded",
+        "type": "Government Scholarship",
+        "website": "https://stipendiumhungaricum.hu/apply/"
     },
     {
         "id": "mext-scholarship",
@@ -36,7 +38,8 @@
             "PhD"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/"
     },
     {
         "id": "auckland-international-excellence",
@@ -48,7 +51,8 @@
             "Master"
         ],
         "funding": "Partially Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html"
     },
     {
         "id": "global-korea-scholarship",
@@ -61,7 +65,8 @@
             "PhD"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.gks.go.kr/en/plan/scholarship.do"
     },
     {
         "id": "romania-government-scholarship",
@@ -74,7 +79,22 @@
             "PhD"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://scholarships.studyinromania.gov.ro/"
+    },
+    {
+        "id": "italy-dsu-scholarship",
+        "name": "Italy DSU Scholarship",
+        "country": "Italy",
+        "flag": "images/flags/it.svg",
+        "degree": [
+            "Bachelor",
+            "Master",
+            "PhD"
+        ],
+        "funding": "Fully Funded",
+        "type": "Regional Scholarship",
+        "website": "https://www.universitaly.it/it/borse-studio"
     },
     {
         "id": "brunei-government-scholarship",
@@ -86,7 +106,8 @@
             "Master"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.mfa.gov.bn/Pages/online-bdgs.aspx"
     },
     {
         "id": "heydar-aliyev-grant",
@@ -99,7 +120,8 @@
             "PhD"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.studyinazerbaijan.edu.az/financial-support"
     },
     {
         "id": "chevening-scholarship",
@@ -110,7 +132,8 @@
             "Master"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.chevening.org/scholarships/"
     },
     {
         "id": "commonwealth-masters",
@@ -121,9 +144,10 @@
             "Master"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"
     },
-     {
+    {
         "id": "macquarie-vice-chancellor",
         "name": "Macquarie Vice-Chancellor's International Scholarship",
         "country": "Australia",
@@ -133,18 +157,8 @@
             "Master"
         ],
         "funding": "Partially Funded",
-        "type": "University Scholarship"
-    },
-    {
-        "id": "international-talents-unibo",
-        "name": "International Talents @Unibo",
-        "country": "Italy",
-        "flag": "images/flags/it.svg",
-        "degree": [
-            "Master"
-        ],
-        "funding": "Partially Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.mq.edu.au/study/admissions-and-entry/scholarships/international"
     },
     {
         "id": "maastricht-high-potential",
@@ -155,7 +169,8 @@
             "Master"
         ],
         "funding": "Fully Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/maastricht-university-nl-high"
     },
     {
         "id": "lester-b-pearson",
@@ -166,7 +181,8 @@
             "Bachelor"
         ],
         "funding": "Fully Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://future.utoronto.ca/pearson-scholarships"
     },
     {
         "id": "nl-scholarship-twente",
@@ -177,7 +193,8 @@
             "Master"
         ],
         "funding": "Partially Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.utwente.nl/en/education/scholarship-finder/nl-scholarship-university-of-twente/"
     },
     {
         "id": "daad-epos",
@@ -188,7 +205,8 @@
             "Master"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/epos/"
     },
     {
         "id": "swiss-government-excellence",
@@ -199,7 +217,8 @@
             "PhD"
         ],
         "funding": "Partially Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships"
     },
     {
         "id": "csc-scholarship",
@@ -212,7 +231,8 @@
             "PhD"
         ],
         "funding": "Fully Funded",
-        "type": "Government Scholarship"
+        "type": "Government Scholarship",
+        "website": "https://www.campuschina.org/index.html"
     },
     {
         "id": "university-of-twente-scholarship",
@@ -223,7 +243,8 @@
             "Master"
         ],
         "funding": "Partially Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
     },
     {
         "id": "bristol-think-big",
@@ -235,7 +256,8 @@
             "Master"
         ],
         "funding": "Partially Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.bristol.ac.uk/students/support/finances/scholarships/think-big-scholarships/"
     },
     {
         "id": "griffith-remarkable",
@@ -247,6 +269,7 @@
             "Master"
         ],
         "funding": "Partially Funded",
-        "type": "University Scholarship"
+        "type": "University Scholarship",
+        "website": "https://www.griffith.edu.au/international/scholarships-finance/scholarships/griffith-remarkable-scholarship"
     }
 ]
