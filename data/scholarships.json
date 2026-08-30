@@ -11,7 +11,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.turkiyeburslari.gov.tr/"
+        "website": "https://www.turkiyeburslari.gov.tr/",
+        "aboutHeadline": "Study in Türkiye through an international government scholarship program.",
+        "about": [
+            "Türkiye Bursları gives international students the opportunity to study at universities across Türkiye through a government-supported scholarship program.",
+            "The program is available across different degree levels and helps students access higher education opportunities while studying in an international academic environment."
+        ]
     },
     {
         "id": "stipendium-hungaricum",
@@ -25,7 +30,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://stipendiumhungaricum.hu/apply/"
+        "website": "https://stipendiumhungaricum.hu/apply/",
+        "aboutHeadline": "Explore higher education opportunities in Hungary through Stipendium Hungaricum.",
+        "about": [
+            "Stipendium Hungaricum is a scholarship program supported by the Hungarian Government for international students interested in studying at Hungarian higher education institutions.",
+            "Students can explore programs across different academic levels and universities while becoming part of Hungary's international student community."
+        ]
     },
     {
         "id": "mext-scholarship",
@@ -39,7 +49,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/"
+        "website": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
+        "aboutHeadline": "Study in Japan with support from the Japanese Government.",
+        "about": [
+            "The MEXT Scholarship is offered by Japan's Ministry of Education, Culture, Sports, Science and Technology to support international students studying in Japan.",
+            "Different scholarship categories are available for students at various academic stages, making it one of Japan's major routes for international scholarship applicants."
+        ]
     },
     {
         "id": "auckland-international-excellence",
@@ -52,7 +67,12 @@
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
-        "website": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html"
+        "website": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html",
+        "aboutHeadline": "Study at the University of Auckland with support for international students.",
+        "about": [
+            "The University of Auckland International Student Excellence Scholarship supports eligible international students beginning undergraduate or postgraduate study at the university.",
+            "It is designed to recognise strong international applicants and help reduce part of the financial cost of studying in New Zealand."
+        ]
     },
     {
         "id": "global-korea-scholarship",
@@ -66,7 +86,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.gks.go.kr/en/plan/scholarship.do"
+        "website": "https://www.gks.go.kr/en/plan/scholarship.do",
+        "aboutHeadline": "Study in South Korea through a government scholarship for international students.",
+        "about": [
+            "The Global Korea Scholarship gives international students the opportunity to pursue higher education at participating institutions in South Korea.",
+            "The program supports students across different degree levels and aims to encourage international academic exchange and connections with Korea."
+        ]
     },
     {
         "id": "romania-government-scholarship",
@@ -80,7 +105,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://scholarships.studyinromania.gov.ro/"
+        "website": "https://scholarships.studyinromania.gov.ro/",
+        "aboutHeadline": "Discover study opportunities in Romania through a government scholarship program.",
+        "about": [
+            "The Romania Government Scholarship provides opportunities for eligible international students to study at Romanian higher education institutions.",
+            "Programs are available across multiple academic levels, allowing students to experience European higher education while studying in Romania."
+        ]
     },
     {
         "id": "italy-dsu-scholarship",
@@ -94,7 +124,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Regional Scholarship",
-        "website": "https://www.universitaly.it/it/borse-studio"
+        "website": "https://www.universitaly.it/it/borse-studio",
+        "aboutHeadline": "Access regional right-to-study support while pursuing higher education in Italy.",
+        "about": [
+            "Italy's DSU-style scholarships are regional right-to-study opportunities that can support eligible students enrolled at universities in different Italian regions.",
+            "The exact scholarship body, requirements and benefits vary by region and institution, so applicants should always check the official call connected to their chosen university."
+        ]
     },
     {
         "id": "brunei-government-scholarship",
@@ -107,7 +142,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.mfa.gov.bn/Pages/online-bdgs.aspx"
+        "website": "https://www.mfa.gov.bn/Pages/online-bdgs.aspx",
+        "aboutHeadline": "Study in Brunei through an international scholarship supported by the government.",
+        "about": [
+            "The Brunei Darussalam Government Scholarship provides eligible international students with opportunities to study at selected higher education institutions in Brunei.",
+            "It offers students a route to pursue academic programs while experiencing Brunei's education system and multicultural environment."
+        ]
     },
     {
         "id": "heydar-aliyev-grant",
@@ -121,7 +161,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.studyinazerbaijan.edu.az/financial-support"
+        "website": "https://www.studyinazerbaijan.edu.az/financial-support",
+        "aboutHeadline": "Pursue higher education in Azerbaijan through an international education grant.",
+        "about": [
+            "The Heydar Aliyev International Education Grant supports eligible international students interested in studying at higher education institutions in Azerbaijan.",
+            "The initiative provides opportunities across different academic levels and helps strengthen educational connections between Azerbaijan and other countries."
+        ]
     },
     {
         "id": "chevening-scholarship",
@@ -133,7 +178,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.chevening.org/scholarships/"
+        "website": "https://www.chevening.org/scholarships/",
+        "aboutHeadline": "Pursue postgraduate study in the United Kingdom through Chevening.",
+        "about": [
+            "Chevening is a United Kingdom Government scholarship program for applicants who want to pursue postgraduate study at UK universities.",
+            "The program places strong emphasis on academic potential, leadership and the opportunity for scholars to build international professional networks."
+        ]
     },
     {
         "id": "commonwealth-masters",
@@ -145,7 +195,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"
+        "website": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+        "aboutHeadline": "Continue your postgraduate education in the UK through a Commonwealth scholarship.",
+        "about": [
+            "Commonwealth Master's Scholarships support eligible students from Commonwealth countries who want to pursue master's-level study in the United Kingdom.",
+            "The program is designed to provide access to postgraduate education while supporting students whose studies can contribute to development in their home countries."
+        ]
     },
     {
         "id": "macquarie-vice-chancellor",
@@ -158,7 +213,12 @@
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
-        "website": "https://www.mq.edu.au/study/admissions-and-entry/scholarships/international"
+        "website": "https://www.mq.edu.au/study/admissions-and-entry/scholarships/international",
+        "aboutHeadline": "Receive university scholarship support while studying at Macquarie University.",
+        "about": [
+            "The Macquarie Vice-Chancellor's International Scholarship is designed for eligible international students beginning undergraduate or postgraduate study at Macquarie University.",
+            "It provides financial support toward study costs and recognises international applicants with strong academic backgrounds."
+        ]
     },
     {
         "id": "maastricht-high-potential",
@@ -170,7 +230,12 @@
         ],
         "funding": "Fully Funded",
         "type": "University Scholarship",
-        "website": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/maastricht-university-nl-high"
+        "website": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/maastricht-university-nl-high",
+        "aboutHeadline": "Pursue a master's degree at Maastricht University through a competitive scholarship.",
+        "about": [
+            "The Maastricht University NL-High Potential Scholarship is aimed at talented international students applying to eligible master's programs at Maastricht University.",
+            "It offers selected students an opportunity to continue postgraduate education in the Netherlands with substantial scholarship support."
+        ]
     },
     {
         "id": "lester-b-pearson",
@@ -182,7 +247,12 @@
         ],
         "funding": "Fully Funded",
         "type": "University Scholarship",
-        "website": "https://future.utoronto.ca/pearson-scholarships"
+        "website": "https://future.utoronto.ca/pearson-scholarships",
+        "aboutHeadline": "Study at the University of Toronto through a major international undergraduate scholarship.",
+        "about": [
+            "The Lester B. Pearson International Scholarship is offered by the University of Toronto to outstanding international students entering undergraduate study.",
+            "The scholarship recognises students with strong academic achievement, creativity and meaningful contributions to their school or wider community."
+        ]
     },
     {
         "id": "nl-scholarship-twente",
@@ -194,7 +264,12 @@
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
-        "website": "https://www.utwente.nl/en/education/scholarship-finder/nl-scholarship-university-of-twente/"
+        "website": "https://www.utwente.nl/en/education/scholarship-finder/nl-scholarship-university-of-twente/",
+        "aboutHeadline": "Study at the University of Twente with financial support through the NL Scholarship.",
+        "about": [
+            "The NL Scholarship at the University of Twente supports eligible international students from outside the European Economic Area who are beginning a master's program.",
+            "It provides financial assistance toward studying in the Netherlands and is intended for students who meet the university's scholarship requirements."
+        ]
     },
     {
         "id": "daad-epos",
@@ -206,7 +281,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/epos/"
+        "website": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/epos/",
+        "aboutHeadline": "Build advanced professional knowledge in Germany through a development-focused postgraduate scholarship.",
+        "about": [
+            "DAAD EPOS supports selected postgraduate programs in Germany that are connected to development-related fields and professional education.",
+            "The program is aimed at qualified applicants who want to strengthen their academic and professional expertise through postgraduate study in Germany."
+        ]
     },
     {
         "id": "swiss-government-excellence",
@@ -218,7 +298,12 @@
         ],
         "funding": "Partially Funded",
         "type": "Government Scholarship",
-        "website": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships"
+        "website": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
+        "aboutHeadline": "Develop advanced research experience in Switzerland through a government excellence scholarship.",
+        "about": [
+            "Swiss Government Excellence Scholarships provide opportunities for international researchers and advanced students to continue academic work in Switzerland.",
+            "The program supports international academic exchange and gives selected scholars access to Switzerland's universities and research environment."
+        ]
     },
     {
         "id": "csc-scholarship",
@@ -232,7 +317,12 @@
         ],
         "funding": "Fully Funded",
         "type": "Government Scholarship",
-        "website": "https://www.campuschina.org/index.html"
+        "website": "https://www.campuschina.org/index.html",
+        "aboutHeadline": "Explore higher education opportunities in China through the Chinese Government Scholarship.",
+        "about": [
+            "The Chinese Government Scholarship supports eligible international students who want to study at participating universities and institutions in China.",
+            "Scholarship opportunities are available across several academic levels and programs, giving students access to China's expanding international higher education system."
+        ]
     },
     {
         "id": "university-of-twente-scholarship",
@@ -244,7 +334,12 @@
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
-        "website": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/"
+        "website": "https://www.utwente.nl/en/education/scholarship-finder/university-of-twente-scholarship/",
+        "aboutHeadline": "Continue your master's education at the University of Twente with scholarship support.",
+        "about": [
+            "The University of Twente Scholarship is available to selected international students applying for eligible master's programs at the university.",
+            "It recognises strong applicants and provides financial support to help them pursue postgraduate education in the Netherlands."
+        ]
     },
     {
         "id": "bristol-think-big",
@@ -257,7 +352,12 @@
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
-        "website": "https://www.bristol.ac.uk/students/support/finances/scholarships/think-big-scholarships/"
+        "website": "https://www.bristol.ac.uk/students/support/finances/scholarships/think-big-scholarships/",
+        "aboutHeadline": "Study at the University of Bristol with support through the Think Big Scholarship.",
+        "about": [
+            "The University of Bristol Think Big Scholarship supports eligible international students beginning undergraduate or postgraduate study at the university.",
+            "The scholarship is designed to help talented international applicants reduce some of the financial cost associated with studying in the United Kingdom."
+        ]
     },
     {
         "id": "griffith-remarkable",
@@ -270,6 +370,11 @@
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
-        "website": "https://www.griffith.edu.au/international/scholarships-finance/scholarships/griffith-remarkable-scholarship"
+        "website": "https://www.griffith.edu.au/international/scholarships-finance/scholarships/griffith-remarkable-scholarship",
+        "aboutHeadline": "Study at Griffith University with scholarship support for international students.",
+        "about": [
+            "The Griffith Remarkable Scholarship is designed for eligible international students beginning undergraduate or postgraduate coursework at Griffith University.",
+            "It recognises strong international applicants and provides financial support toward the cost of studying in Australia."
+        ]
     }
 ]

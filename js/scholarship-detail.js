@@ -1,3 +1,22 @@
+const menuBtn = document.querySelector(".menu-btn");
+const closeBtn = document.querySelector(".close-btn");
+const sidebar = document.querySelector(".sidebar");
+const sidelinks = document.querySelector(".side-links")
+
+// Open Sidebar
+menuBtn.addEventListener("click", function () {
+    sidebar.classList.add("active");
+});
+
+// Close Sidebar
+closeBtn.addEventListener("click", function () {
+    sidebar.classList.remove("active");
+});
+
+sidelinks.addEventListener("click", function () {
+    sidebar.classList.remove("active");
+});
+
 async function loadScholarshipDetails() {
     const params = new URLSearchParams(window.location.search);
     const scholarshipId = params.get("id");
@@ -125,6 +144,68 @@ async function loadScholarshipDetails() {
 
         document.title =
             `${scholarship.name} | ScholarBridge`;
+        document.getElementById("overviewCountry").textContent =
+            scholarship.country;
+
+        document.getElementById("overviewFunding").textContent =
+            scholarship.funding;
+
+        document.getElementById("overviewType").textContent =
+            scholarship.type;
+
+        const overviewFunding =
+            document.getElementById("overviewFunding");
+
+        if (scholarship.funding === "Fully Funded") {
+            overviewFunding.classList.add("overview-fully-funded");
+        } else {
+            overviewFunding.classList.add("overview-partially-funded");
+        }
+        const overviewDegrees =
+            document.getElementById("overviewDegrees");
+
+        overviewDegrees.innerHTML = "";
+
+        scholarship.degree.forEach(function (degree) {
+            const tag = document.createElement("span");
+
+            tag.textContent = degree;
+
+            overviewDegrees.appendChild(tag);
+        });
+        document.getElementById("aboutHeadline").textContent =
+            scholarship.aboutHeadline;
+
+        document.getElementById("aboutCountry").textContent =
+            scholarship.country;
+
+        document.getElementById("aboutType").textContent =
+            scholarship.type;
+
+        document.getElementById("aboutFunding").textContent =
+            scholarship.funding;
+
+        document.getElementById("aboutCountryCode").textContent =
+            countryCode;
+
+        const aboutFlag =
+            document.getElementById("aboutFlag");
+
+        aboutFlag.src = scholarship.flag;
+        aboutFlag.alt = `${scholarship.country} flag`;
+
+        const scholarshipAbout =
+            document.getElementById("scholarshipAbout");
+
+        scholarshipAbout.innerHTML = "";
+
+        scholarship.about.forEach(function (paragraph) {
+            const p = document.createElement("p");
+
+            p.textContent = paragraph;
+
+            scholarshipAbout.appendChild(p);
+        });
 
     } catch (error) {
         console.error("Could not load scholarship:", error);
