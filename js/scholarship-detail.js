@@ -1,14 +1,12 @@
 const menuBtn = document.querySelector(".menu-btn");
 const closeBtn = document.querySelector(".close-btn");
 const sidebar = document.querySelector(".sidebar");
-const sidelinks = document.querySelector(".side-links")
+const sidelinks = document.querySelector(".side-links");
 
-// Open Sidebar
 menuBtn.addEventListener("click", function () {
     sidebar.classList.add("active");
 });
 
-// Close Sidebar
 closeBtn.addEventListener("click", function () {
     sidebar.classList.remove("active");
 });
@@ -16,6 +14,56 @@ closeBtn.addEventListener("click", function () {
 sidelinks.addEventListener("click", function () {
     sidebar.classList.remove("active");
 });
+
+
+function renderEligibility(scholarship) {
+    const eligibilityList = document.getElementById("eligibilityList");
+    const eligibilitySection = document.querySelector(".eligibility-bands-section");
+
+    if (!scholarship.eligibility || scholarship.eligibility.length === 0) {
+        eligibilitySection.style.display = "none";
+        return;
+    }
+
+    const icons = {
+        Academic: "fa-solid fa-graduation-cap",
+        Nationality: "fa-solid fa-earth-americas",
+        Age: "fa-regular fa-calendar",
+        Language: "fa-solid fa-language"
+    };
+
+    eligibilityList.innerHTML = scholarship.eligibility.map(function (item, index) {
+        const number = String(index + 1).padStart(2, "0");
+
+        const icon =
+            icons[item.category] ||
+            "fa-solid fa-circle-check";
+
+        return `
+            <article class="eligibility-band">
+
+                <div class="band-number">
+                    <span>${number}</span>
+                </div>
+
+                <div class="band-category">
+                    <span>${item.category.toUpperCase()}</span>
+                    <h3>${item.title}</h3>
+                </div>
+
+                <div class="band-description">
+                    <p>${item.description}</p>
+                </div>
+
+                <div class="band-icon">
+                    <i class="${icon}"></i>
+                </div>
+
+            </article>
+        `;
+    }).join("");
+}
+
 
 async function loadScholarshipDetails() {
     const params = new URLSearchParams(window.location.search);
@@ -74,6 +122,7 @@ async function loadScholarshipDetails() {
             countryCodes[scholarship.country] ||
             scholarship.country.slice(0, 2).toUpperCase();
 
+
         const detailName = document.getElementById("detailName");
 
         detailName.textContent = scholarship.name;
@@ -81,6 +130,7 @@ async function loadScholarshipDetails() {
         if (scholarship.name.length > 40) {
             detailName.classList.add("long-title");
         }
+
 
         document.getElementById("detailCountry").textContent =
             scholarship.country;
@@ -100,6 +150,7 @@ async function loadScholarshipDetails() {
         document.getElementById("cardCountryCode").textContent =
             countryCode;
 
+
         const detailFlag = document.getElementById("detailFlag");
         const cardFlag = document.getElementById("cardFlag");
 
@@ -108,6 +159,7 @@ async function loadScholarshipDetails() {
 
         cardFlag.src = scholarship.flag;
         cardFlag.alt = `${scholarship.country} flag`;
+
 
         const degreesContainer =
             document.getElementById("detailDegrees");
@@ -123,6 +175,7 @@ async function loadScholarshipDetails() {
             degreesContainer.appendChild(tag);
         });
 
+
         const fundingTag =
             document.getElementById("detailFunding");
 
@@ -133,6 +186,7 @@ async function loadScholarshipDetails() {
             fundingTag.classList.add("detail-partial-tag");
         }
 
+
         const officialWebsite =
             document.getElementById("officialWebsite");
 
@@ -142,8 +196,11 @@ async function loadScholarshipDetails() {
             officialWebsite.style.display = "none";
         }
 
+
         document.title =
             `${scholarship.name} | ScholarBridge`;
+
+
         document.getElementById("overviewCountry").textContent =
             scholarship.country;
 
@@ -153,6 +210,7 @@ async function loadScholarshipDetails() {
         document.getElementById("overviewType").textContent =
             scholarship.type;
 
+
         const overviewFunding =
             document.getElementById("overviewFunding");
 
@@ -161,6 +219,8 @@ async function loadScholarshipDetails() {
         } else {
             overviewFunding.classList.add("overview-partially-funded");
         }
+
+
         const overviewDegrees =
             document.getElementById("overviewDegrees");
 
@@ -173,6 +233,8 @@ async function loadScholarshipDetails() {
 
             overviewDegrees.appendChild(tag);
         });
+
+
         document.getElementById("aboutHeadline").textContent =
             scholarship.aboutHeadline;
 
@@ -188,11 +250,13 @@ async function loadScholarshipDetails() {
         document.getElementById("aboutCountryCode").textContent =
             countryCode;
 
+
         const aboutFlag =
             document.getElementById("aboutFlag");
 
         aboutFlag.src = scholarship.flag;
         aboutFlag.alt = `${scholarship.country} flag`;
+
 
         const scholarshipAbout =
             document.getElementById("scholarshipAbout");
@@ -207,9 +271,13 @@ async function loadScholarshipDetails() {
             scholarshipAbout.appendChild(p);
         });
 
+
+        renderEligibility(scholarship);
+
     } catch (error) {
         console.error("Could not load scholarship:", error);
     }
 }
+
 
 loadScholarshipDetails();

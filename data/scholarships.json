@@ -16,6 +16,28 @@
         "about": [
             "Türkiye Bursları gives international students the opportunity to study at universities across Türkiye through a government-supported scholarship program.",
             "The program is available across different degree levels and helps students access higher education opportunities while studying in an international academic environment."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Minimum academic achievement is generally 70% for bachelor's applicants and 75% for master's and PhD applicants. Medicine, dentistry and pharmacy applicants require 90%."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Citizens of all countries may apply, but Turkish citizens and people who have lost Turkish citizenship are not eligible. Applicants already studying in Türkiye at the same study level are also ineligible."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Applicants must be under 21 for bachelor's programs, under 30 for master's programs and under 35 for PhD programs."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Language requirements depend on the chosen university and program. Applicants must provide any language certificate required by the selected program or institution."
+            }
         ]
     },
     {
@@ -35,6 +57,28 @@
         "about": [
             "Stipendium Hungaricum is a scholarship program supported by the Hungarian Government for international students interested in studying at Hungarian higher education institutions.",
             "Students can explore programs across different academic levels and universities while becoming part of Hungary's international student community."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must meet the entry requirements of their chosen Hungarian study program and successfully complete the host institution's admission or entrance evaluation."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must apply through an eligible Sending Partner and for study fields available to that partner. Citizenship normally has to match the Sending Partner, and Hungarian citizens are not eligible."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Applicants generally need to meet the minimum-age conditions stated in the current call for applications. Any exceptions or additional age rules depend on the study program and annual call."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must meet the language requirements of the chosen host institution. A Sending Partner may also require a specific English or other language certificate."
+            }
         ]
     },
     {
@@ -54,6 +98,28 @@
         "about": [
             "The MEXT Scholarship is offered by Japan's Ministry of Education, Culture, Sports, Science and Technology to support international students studying in Japan.",
             "Different scholarship categories are available for students at various academic stages, making it one of Japan's major routes for international scholarship applicants."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Undergraduate applicants generally need to have completed 12 years of school education, while research applicants must be academically eligible for admission to a Japanese master's or doctoral program."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants generally need to hold the nationality of a country that has diplomatic relations with Japan. Japanese nationals are normally not eligible under the international scholarship route."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Undergraduate applicants must generally be under 25 years of age, while research students must generally be under 35."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Language expectations depend on the scholarship category and program. Selection may include Japanese and English examinations, so applicants should check the current embassy or university recommendation guidelines."
+            }
         ]
     },
     {
@@ -62,16 +128,37 @@
         "country": "New Zealand",
         "flag": "images/flags/nz.svg",
         "degree": [
-            "Bachelor",
             "Master"
         ],
         "funding": "Partially Funded",
         "type": "University Scholarship",
         "website": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html",
-        "aboutHeadline": "Study at the University of Auckland with support for international students.",
+        "aboutHeadline": "Study at the University of Auckland with tuition support for high-calibre international master's students.",
         "about": [
-            "The University of Auckland International Student Excellence Scholarship supports eligible international students beginning undergraduate or postgraduate study at the university.",
-            "It is designed to recognise strong international applicants and help reduce part of the financial cost of studying in New Zealand."
+            "The University of Auckland International Student Excellence Scholarship supports new international students entering an eligible master's degree at the University of Auckland.",
+            "The scholarship is awarded on academic merit and other selection criteria and provides a tuition fee credit for one year of study."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must hold a conditional or unconditional offer for an eligible University of Auckland master's program and have an Admissions GPE of at least 7.0."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be international students. Students who have already started study at the University or completed tertiary study in New Zealand, other than an exchange program, are not eligible."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The current scholarship regulations do not state a specific age limit. Applicants must instead satisfy the admission and scholarship eligibility rules."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "There is no separate scholarship language score. Applicants must satisfy the English-language and other admission requirements of their selected master's program."
+            }
         ]
     },
     {
@@ -91,6 +178,28 @@
         "about": [
             "The Global Korea Scholarship gives international students the opportunity to pursue higher education at participating institutions in South Korea.",
             "The program supports students across different degree levels and aims to encourage international academic exchange and connections with Korea."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must hold the qualification required for their study level and generally need academic performance equivalent to at least 80% in their most recent educational program."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "For the standard degree program, the applicant and both parents must hold non-Korean citizenship. Additional citizenship conditions are explained in the annual GKS guidelines."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Undergraduate applicants must generally be under 25 years old, while graduate applicants must generally be under 40 years old in the applicable selection year."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Language requirements vary by track and university. TOPIK or English proficiency results may be required or considered, and many GKS degree scholars complete Korean-language training before the degree program."
+            }
         ]
     },
     {
@@ -110,6 +219,28 @@
         "about": [
             "The Romania Government Scholarship provides opportunities for eligible international students to study at Romanian higher education institutions.",
             "Programs are available across multiple academic levels, allowing students to experience European higher education while studying in Romania."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants need the qualification required for the chosen study cycle and must generally have an average of at least 7 out of 10, or the equivalent 'Good' result, in their most recently completed studies."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "The MFA scholarship is primarily for citizens of non-EU countries, subject to the exclusions listed in the official annual program rules."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The current program information does not set a general age limit. Applicants must meet the academic and program-specific eligibility conditions."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Bachelor's and master's scholarship studies are generally in Romanian, with a preparatory Romanian-language year available when needed. PhD programs may also be available in another language accepted by the doctoral school."
+            }
         ]
     },
     {
@@ -129,6 +260,28 @@
         "about": [
             "Italy's DSU-style scholarships are regional right-to-study opportunities that can support eligible students enrolled at universities in different Italian regions.",
             "The exact scholarship body, requirements and benefits vary by region and institution, so applicants should always check the official call connected to their chosen university."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must be enrolled in or eligible for a participating higher-education program and satisfy the merit or credit requirements set by the relevant regional right-to-study body."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Italian and international students can apply. International applicants with family income or assets abroad normally need the financial documentation required for an ISEE Parificato or the regional equivalent."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "There is no single national DSU age limit because these scholarships are administered regionally. Applicants should check the current regional call for any specific restrictions."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "DSU funding itself does not use one national language-test rule. Applicants must satisfy the language and admission requirements of the university program in which they enroll."
+            }
         ]
     },
     {
@@ -147,6 +300,28 @@
         "about": [
             "The Brunei Darussalam Government Scholarship provides eligible international students with opportunities to study at selected higher education institutions in Brunei.",
             "It offers students a route to pursue academic programs while experiencing Brunei's education system and multicultural environment."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must meet the academic entry requirements of the selected Brunei institution and program and submit certified academic qualifications and transcripts."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "The scholarship is primarily for international students studying in Brunei for the first time. Brunei citizens, permanent residents and international students who have studied at Brunei tertiary institutions are not eligible."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Applicants must not exceed age 25 for undergraduate and diploma programs or age 35 for postgraduate master's programs on 1 July of the year the course starts."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must show English proficiency, such as Credit 6 at GCE O Level, Grade C in IGCSE English, IELTS 6.0 or TOEFL 550. Some programs may require additional language assessment."
+            }
         ]
     },
     {
@@ -166,6 +341,28 @@
         "about": [
             "The Heydar Aliyev International Education Grant supports eligible international students interested in studying at higher education institutions in Azerbaijan.",
             "The initiative provides opportunities across different academic levels and helps strengthen educational connections between Azerbaijan and other countries."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must have a GPA of at least 70 out of 100, 7 out of 10, or an equivalent result in their previous completed level of education."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be foreign nationals from an eligible country group, including OIC members, Non-Aligned Movement members, Small Island Developing States or other countries covered by the official call. Azerbaijani citizens and former Azerbaijani citizens are not eligible."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "For the 2026-2027 call, applicants must be below 35 for bachelor's and general medicine, below 40 for master's and medical residency, and below 45 for PhD as of 15 September 2026."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "For English-taught study, the 2026-2027 call requires at least IELTS 5.0 or TOEFL 40 for undergraduate study and IELTS 5.5 or TOEFL 50 for postgraduate study, unless previous education was taught in English. Other study languages have their own proof requirements."
+            }
         ]
     },
     {
@@ -183,6 +380,28 @@
         "about": [
             "Chevening is a United Kingdom Government scholarship program for applicants who want to pursue postgraduate study at UK universities.",
             "The program places strong emphasis on academic potential, leadership and the opportunity for scholars to build international professional networks."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants need an undergraduate qualification that enables entry to an eligible UK master's course and must meet Chevening's work-experience requirement, currently at least 2,800 hours gained after completing the undergraduate degree."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be citizens of a Chevening-eligible country or territory and must meet the program's return-to-home-country and other citizenship conditions."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Chevening does not set an upper age limit for scholarship applicants."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Chevening does not impose a separate English-language test requirement, but applicants must satisfy the English and admission requirements of the UK universities and courses they choose."
+            }
         ]
     },
     {
@@ -200,6 +419,28 @@
         "about": [
             "Commonwealth Master's Scholarships support eligible students from Commonwealth countries who want to pursue master's-level study in the United Kingdom.",
             "The program is designed to provide access to postgraduate education while supporting students whose studies can contribute to development in their home countries."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must normally hold at least an upper second-class first degree, or a lower second-class degree together with a relevant postgraduate qualification, and be able to start the UK master's program in the stated academic year."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be citizens of, or hold an accepted protected status in, an eligible Commonwealth country and must be permanently resident in an eligible country."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The Commonwealth Master's Scholarship does not list a general age limit. Applicants must satisfy the published academic, residency and financial-need criteria."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "The CSC does not list one universal English test score on the main scholarship eligibility page. Applicants must meet the language and admission requirements of the UK university and course."
+            }
         ]
     },
     {
@@ -218,6 +459,28 @@
         "about": [
             "The Macquarie Vice-Chancellor's International Scholarship is designed for eligible international students beginning undergraduate or postgraduate study at Macquarie University.",
             "It provides financial support toward study costs and recognises international applicants with strong academic backgrounds."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must meet Macquarie's course entry requirements and, for the general VCIS, achieve at least a WAM equivalent of 65 for postgraduate study or an ATAR equivalent of 85 for undergraduate study."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "The scholarship is for international students. Australian and New Zealand citizens and Australian permanent residents are not eligible under the standard international scholarship conditions."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The standard Vice-Chancellor's International Scholarship does not state a specific age limit. Applicants must meet the university and scholarship entry conditions."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must meet Macquarie University's English-language requirements for their chosen bachelor's or postgraduate coursework degree."
+            }
         ]
     },
     {
@@ -235,6 +498,28 @@
         "about": [
             "The Maastricht University NL-High Potential Scholarship is aimed at talented international students applying to eligible master's programs at Maastricht University.",
             "It offers selected students an opportunity to continue postgraduate education in the Netherlands with substantial scholarship support."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must apply to a participating full-time Maastricht University master's program, meet its admission requirements and normally show excellent prior results, including a latest GPA of at least 7.5 out of 10."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "The scholarship is intended for students from outside the EU/EEA who meet the scholarship's nationality and Dutch residence or tuition-status conditions."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "For the 2027-2028 scholarship cycle, applicants must not be older than 35 on 1 September 2027."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must meet the language requirements of the Maastricht University master's program to which they apply. The scholarship itself does not publish one universal language score for every program."
+            }
         ]
     },
     {
@@ -252,6 +537,28 @@
         "about": [
             "The Lester B. Pearson International Scholarship is offered by the University of Toronto to outstanding international students entering undergraduate study.",
             "The scholarship recognises students with strong academic achievement, creativity and meaningful contributions to their school or wider community."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must be entering first-entry undergraduate study at the University of Toronto, demonstrate outstanding academic achievement and leadership potential, and be nominated by their secondary school."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be international students who require a Canadian study permit. Canadian citizens are not eligible for the Pearson International Scholarship."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "There is no separate age cap, but applicants must be in their final year of senior secondary school or have graduated within the period specified for the current intake and must not already be attending post-secondary studies."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "The scholarship does not set a separate English score. Applicants must satisfy the University of Toronto's English-language and admission requirements for their chosen undergraduate program."
+            }
         ]
     },
     {
@@ -269,6 +576,28 @@
         "about": [
             "The NL Scholarship at the University of Twente supports eligible international students from outside the European Economic Area who are beginning a master's program.",
             "It provides financial assistance toward studying in the Netherlands and is intended for students who meet the university's scholarship requirements."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must be provisionally admitted to a qualifying University of Twente master's program and be excellent students, with a CGPA of about 7.5 out of 10 and performance within roughly the top 5-10% of their graduating class."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be from a non-EU/EEA country and must not be eligible for the Dutch study grant or the statutory tuition-fee rate under the scholarship rules."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The NL Scholarship at the University of Twente does not publish a specific age limit. Applicants must meet the master's admission and scholarship conditions."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must meet the stated English requirement, currently Academic IELTS 6.5 overall with 6.0 in speaking, or TOEFL iBT 90 with 20 in speaking, unless an official exemption applies."
+            }
         ]
     },
     {
@@ -286,6 +615,28 @@
         "about": [
             "DAAD EPOS supports selected postgraduate programs in Germany that are connected to development-related fields and professional education.",
             "The program is aimed at qualified applicants who want to strengthen their academic and professional expertise through postgraduate study in Germany."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants normally need an appropriate bachelor's degree with above-average results and at least two years of relevant professional experience after graduation."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "EPOS is aimed at graduates from developing and newly industrialised countries included in the program's current eligible-country list."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The central EPOS criteria do not use one fixed age cap for all courses. Applicants should check the selected program for course-specific limits and rules concerning how recently the previous degree was completed."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must provide the language proof required by the chosen EPOS course, such as English proficiency and, where relevant, German proficiency."
+            }
         ]
     },
     {
@@ -303,6 +654,28 @@
         "about": [
             "Swiss Government Excellence Scholarships provide opportunities for international researchers and advanced students to continue academic work in Switzerland.",
             "The program supports international academic exchange and gives selected scholars access to Switzerland's universities and research environment."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "PhD applicants must have a master's degree or equivalent by the deadline stated for the cycle and need a detailed research proposal plus support from an academic supervisor at an eligible Swiss institution."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Eligibility is organised by country, and applicants must apply under the scholarship offer available for their country of origin. Country-specific rules can differ."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "For the current 2027-2028 PhD scholarship information, applicants must have been born after 31 December 1991."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must have the language ability needed to carry out the proposed research and satisfy the host institution's requirements. There is no single universal IELTS or TOEFL score for every research field."
+            }
         ]
     },
     {
@@ -322,6 +695,28 @@
         "about": [
             "The Chinese Government Scholarship supports eligible international students who want to study at participating universities and institutions in China.",
             "Scholarship opportunities are available across several academic levels and programs, giving students access to China's expanding international higher education system."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must hold the qualification required for the study level and meet the chosen university's admission standards. Bachelor's applicants for current intakes may also need a valid China Scholastic Competency Assessment score."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be citizens of a country other than the People's Republic of China and meet the health and other conditions stated in the current Chinese Government Scholarship application guide."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Applicants must generally be under 25 for bachelor's study, under 35 for master's study and under 40 for doctoral study."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Chinese-taught programs require the appropriate HSK level; master's and doctoral applicants generally need at least HSK 4. Programs taught in another language require the language proof specified by the university, such as IELTS or TOEFL where applicable."
+            }
         ]
     },
     {
@@ -339,6 +734,28 @@
         "about": [
             "The University of Twente Scholarship is available to selected international students applying for eligible master's programs at the university.",
             "It recognises strong applicants and provides financial support to help them pursue postgraduate education in the Netherlands."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must first receive provisional admission to a qualifying University of Twente master's program and should rank among roughly the top 5-10% of their graduating class."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "The UTS is for non-EU/EEA international students and is not available to Dutch students, current University of Twente students or applicants who qualify for the Dutch study loan or statutory tuition-fee rate."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The University of Twente Scholarship does not state a specific age limit. Applicants must meet the admission and scholarship conditions for the selected master's program."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must meet the stated English requirement, currently Academic IELTS 6.5 overall with 6.0 in speaking, or TOEFL iBT 90 with 20 in speaking, unless an official exemption applies."
+            }
         ]
     },
     {
@@ -357,6 +774,28 @@
         "about": [
             "The University of Bristol Think Big Scholarship supports eligible international students beginning undergraduate or postgraduate study at the university.",
             "The scholarship is designed to help talented international applicants reduce some of the financial cost associated with studying in the United Kingdom."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "Applicants must apply to an eligible full-time, in-person undergraduate or master's course at Bristol and must meet or exceed the academic entry requirements in their university offer."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be classed as overseas students for fee-paying purposes. Additional course exclusions and conditions are listed in the current Think Big terms."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "Think Big does not publish a general age limit. Eligibility is based on fee status, course application and the academic conditions of the university offer."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "There is no separate Think Big language-test threshold. Applicants must satisfy the English-language requirements of their chosen University of Bristol course."
+            }
         ]
     },
     {
@@ -375,6 +814,28 @@
         "about": [
             "The Griffith Remarkable Scholarship is designed for eligible international students beginning undergraduate or postgraduate coursework at Griffith University.",
             "It recognises strong international applicants and provides financial support toward the cost of studying in Australia."
+        ],
+        "eligibility": [
+            {
+                "category": "Academic",
+                "title": "Academic Background",
+                "description": "The published Remarkable Scholarship criteria require strong prior results, historically a minimum GPA equivalent to 5.5 on Griffith's 7-point scale, together with admission to an eligible undergraduate or postgraduate coursework program."
+            },
+            {
+                "category": "Nationality",
+                "title": "Nationality Requirements",
+                "description": "Applicants must be international students and citizens of a country other than Australia or New Zealand."
+            },
+            {
+                "category": "Age",
+                "title": "Age Requirement",
+                "description": "The published scholarship terms do not state a specific age limit. Applicants must meet Griffith University's course and scholarship conditions."
+            },
+            {
+                "category": "Language",
+                "title": "Language Requirements",
+                "description": "Applicants must satisfy all English-language entry requirements for their chosen Griffith University undergraduate or postgraduate coursework program."
+            }
         ]
     }
 ]
