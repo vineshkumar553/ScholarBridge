@@ -38,6 +38,44 @@
                 "title": "Language Requirements",
                 "description": "Language requirements depend on the chosen university and program. Applicants must provide any language certificate required by the selected program or institution."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Tuition fees are covered for the duration of the scholarship program.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Stipend",
+                "description": "Current full-time scholarship rates list 4,500 TL per month for associate and bachelor's students, 6,500 TL for master's students and 9,000 TL for PhD students.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Accommodation",
+                "description": "Scholarship recipients receive accommodation support according to Türkiye Scholarships rules, including dormitory support for eligible students.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Health Insurance",
+                "description": "General health insurance is provided during the scholarship period.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Flight Support",
+                "description": "Airfare support is provided for arrival in Türkiye and return after completion according to the scholarship rules.",
+                "status": "Included"
+            },
+            {
+                "category": "Language",
+                "title": "Turkish Language Course",
+                "description": "A one-year Turkish language course is included in the scholarship package.",
+                "status": "Included"
+            }
         ]
     },
     {
@@ -78,6 +116,32 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must meet the language requirements of the chosen host institution. A Sending Partner may also require a specific English or other language certificate."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition-Free Education",
+                "description": "Scholarship holders are exempt from tuition fees for the supported study program.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Stipend",
+                "description": "A monthly stipend is provided during the scholarship period; the amount depends on the study level and current call.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Accommodation Contribution",
+                "description": "The program provides accommodation support through a dormitory place or an accommodation contribution under the applicable call.",
+                "status": "Partial"
+            },
+            {
+                "category": "Health",
+                "title": "Medical Insurance",
+                "description": "Medical insurance support is included for scholarship holders under the program rules.",
+                "status": "Included"
             }
         ]
     },
@@ -120,6 +184,26 @@
                 "title": "Language Requirements",
                 "description": "Language expectations depend on the scholarship category and program. Selection may include Japanese and English examinations, so applicants should check the current embassy or university recommendation guidelines."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Education Fees",
+                "description": "Entrance examination, matriculation and tuition fees at the accepting university are waived under the MEXT scholarship.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Allowance",
+                "description": "MEXT provides a monthly scholarship allowance; the amount depends on the scholarship category and may include a small regional supplement in designated areas.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Airfare",
+                "description": "Economy-class airfare to Japan and return travel after completion are provided under MEXT travel rules.",
+                "status": "Included"
+            }
         ]
     },
     {
@@ -158,6 +242,14 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "There is no separate scholarship language score. Applicants must satisfy the English-language and other admission requirements of their selected master's program."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fee Credit",
+                "description": "The current scholarship provides a tuition fee credit equal to 25% of the value of one year of tuition fees.",
+                "status": "Partial"
             }
         ]
     },
@@ -200,6 +292,32 @@
                 "title": "Language Requirements",
                 "description": "Language requirements vary by track and university. TOPIK or English proficiency results may be required or considered, and many GKS degree scholars complete Korean-language training before the degree program."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Tuition support is included for GKS degree scholars according to the program guidelines.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Study Allowance",
+                "description": "GKS provides study and living allowances during the scholarship period; exact components and rates are set in the annual guidelines.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Round-Trip Airfare",
+                "description": "Round-trip airfare is included under the GKS degree scholarship package.",
+                "status": "Included"
+            },
+            {
+                "category": "Language",
+                "title": "Korean Language Training",
+                "description": "Korean language training costs are covered for scholarship tracks that include the language-training year.",
+                "status": "Included"
+            }
         ]
     },
     {
@@ -240,6 +358,32 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Bachelor's and master's scholarship studies are generally in Romanian, with a preparatory Romanian-language year available when needed. PhD programs may also be available in another language accepted by the doctoral school."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Tuition expenses are financed for the supported degree program and, where applicable, the Romanian-language preparatory year.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Scholarship",
+                "description": "A monthly financial scholarship is provided during the preparatory year and supported bachelor's, master's or doctoral studies.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Dormitory Accommodation",
+                "description": "Accommodation expenses in student dormitories are financed within the allocated subsidy and subject to available places.",
+                "status": "Partial"
+            },
+            {
+                "category": "Language",
+                "title": "Romanian Preparatory Year",
+                "description": "For eligible students who need it, the scholarship finances the Romanian-language preparatory year.",
+                "status": "Included"
             }
         ]
     },
@@ -282,6 +426,32 @@
                 "title": "Language Requirements",
                 "description": "DSU funding itself does not use one national language-test rule. Applicants must satisfy the language and admission requirements of the university program in which they enroll."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition and Fee Support",
+                "description": "Right-to-study benefits can include tuition fee exemption or reduction, but the exact treatment depends on the region, university and annual call.",
+                "status": "Varies"
+            },
+            {
+                "category": "Living Support",
+                "title": "Cash Scholarship",
+                "description": "Regional DSU bodies may provide a cash scholarship whose amount depends on economic status, merit and the student's residence category.",
+                "status": "Varies"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Accommodation Support",
+                "description": "Eligible students may receive a place in student housing or other accommodation or rent support, subject to regional rules and availability.",
+                "status": "Varies"
+            },
+            {
+                "category": "Meals",
+                "title": "Meal Services",
+                "description": "Regional right-to-study packages can include subsidised or free canteen meals, with details varying by region and student category.",
+                "status": "Varies"
+            }
         ]
     },
     {
@@ -321,6 +491,44 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must show English proficiency, such as Credit 6 at GCE O Level, Grade C in IGCSE English, IELTS 6.0 or TOEFL 550. Some programs may require additional language assessment."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition and Compulsory Fees",
+                "description": "Tuition, acceptance, examination, registration and orientation fees are exempted for the duration of the program.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Personal Allowance",
+                "description": "A monthly personal allowance of BND 500 is provided.",
+                "status": "Included"
+            },
+            {
+                "category": "Meals",
+                "title": "Meals and Book Allowances",
+                "description": "Recipients receive a monthly meals allowance of BND 150 and an annual book allowance of BND 600.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "University Accommodation",
+                "description": "Accommodation is provided at the residential college of the university or polytechnic.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Return Airfare",
+                "description": "Economy-class travel to Brunei before the course and return travel after completion are provided, along with a baggage allowance under the scholarship terms.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Insurance Cover",
+                "description": "Comprehensive insurance cover is provided for the duration of the scholarship.",
+                "status": "Included"
             }
         ]
     },
@@ -363,6 +571,38 @@
                 "title": "Language Requirements",
                 "description": "For English-taught study, the 2026-2027 call requires at least IELTS 5.0 or TOEFL 40 for undergraduate study and IELTS 5.5 or TOEFL 50 for postgraduate study, unless previous education was taught in English. Other study languages have their own proof requirements."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Tuition fees at the participating Azerbaijani higher education institution are covered by the grant.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Allowance",
+                "description": "Grant recipients receive a monthly allowance during the supported study period.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "International Flights",
+                "description": "International flight support is included in the grant package.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Medical Insurance",
+                "description": "Medical insurance is provided to grant recipients.",
+                "status": "Included"
+            },
+            {
+                "category": "Visa",
+                "title": "Visa and Registration",
+                "description": "Visa and registration costs are covered under the grant program.",
+                "status": "Included"
+            }
         ]
     },
     {
@@ -402,6 +642,38 @@
                 "title": "Language Requirements",
                 "description": "Chevening does not impose a separate English-language test requirement, but applicants must satisfy the English and admission requirements of the UK universities and courses they choose."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Approved tuition fees for the eligible one-year master's course are paid by the Chevening program, subject to its terms and any applicable course limits.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Stipend",
+                "description": "A monthly personal living allowance is provided to cover accommodation and general living expenses, with different rates for London and non-London study.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Economy Travel",
+                "description": "Economy travel to and from the scholar's country of residence by an approved route is covered.",
+                "status": "Included"
+            },
+            {
+                "category": "Visa",
+                "title": "Visa Application",
+                "description": "The cost of the UK entry-clearance visa application for the scholar is covered.",
+                "status": "Included"
+            },
+            {
+                "category": "Other",
+                "title": "Additional Allowances",
+                "description": "Chevening also provides an arrival allowance, departure allowance and other eligible travel or TB-testing contributions under the award terms.",
+                "status": "Varies"
+            }
         ]
     },
     {
@@ -440,6 +712,38 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "The CSC does not list one universal English test score on the main scholarship eligibility page. Applicants must meet the language and admission requirements of the UK university and course."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Approved tuition fees are fully covered through arrangements between the Commonwealth Scholarship Commission and the UK university.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Stipend",
+                "description": "A monthly living allowance is provided, with a higher rate for scholars studying in the London metropolitan area.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Return Airfare",
+                "description": "Approved airfare from the scholar's home country to the UK and return travel at the end of the award are covered.",
+                "status": "Included"
+            },
+            {
+                "category": "Study Support",
+                "title": "Study Travel Grant",
+                "description": "A study travel grant is available toward approved study-related travel and academic activities.",
+                "status": "Included"
+            },
+            {
+                "category": "Other",
+                "title": "Additional Support",
+                "description": "Additional support can be available for circumstances such as disability or eligible family situations, subject to the scholarship rules.",
+                "status": "Varies"
             }
         ]
     },
@@ -481,6 +785,14 @@
                 "title": "Language Requirements",
                 "description": "Applicants must meet Macquarie University's English-language requirements for their chosen bachelor's or postgraduate coursework degree."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fee Reduction",
+                "description": "The Vice-Chancellor's International Scholarship provides a one-off award of up to AUD 10,000 applied toward tuition fees.",
+                "status": "Partial"
+            }
         ]
     },
     {
@@ -519,6 +831,38 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must meet the language requirements of the Maastricht University master's program to which they apply. The scholarship itself does not publish one universal language score for every program."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Tuition fees for the participating master's program are arranged and paid by Maastricht University under the scholarship.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Living Expenses",
+                "description": "For the 2027-2028 cycle, the scholarship lists living support of €20,150 for a 13-month program or €38,750 for a 25-month program.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Health and Liability Insurance",
+                "description": "Health and liability insurance costs are arranged and paid by the university under the scholarship package.",
+                "status": "Included"
+            },
+            {
+                "category": "Visa",
+                "title": "Visa Application Costs",
+                "description": "Visa application costs are arranged and paid by Maastricht University.",
+                "status": "Included"
+            },
+            {
+                "category": "Study Support",
+                "title": "Pre-Academic Training",
+                "description": "Pre-academic training costs and the first block of the International Student Ambassador Programme are covered under the scholarship package.",
+                "status": "Included"
             }
         ]
     },
@@ -559,6 +903,32 @@
                 "title": "Language Requirements",
                 "description": "The scholarship does not set a separate English score. Applicants must satisfy the University of Toronto's English-language and admission requirements for their chosen undergraduate program."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "The scholarship covers University of Toronto tuition for four years of first-entry undergraduate study.",
+                "status": "Included"
+            },
+            {
+                "category": "Books",
+                "title": "Books",
+                "description": "Required book costs are covered as part of the Pearson scholarship package.",
+                "status": "Included"
+            },
+            {
+                "category": "Study Support",
+                "title": "Incidental Fees",
+                "description": "University incidental fees are covered for the four-year scholarship period.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Full Residence Support",
+                "description": "Full residence support is provided for four years of undergraduate study.",
+                "status": "Included"
+            }
         ]
     },
     {
@@ -597,6 +967,14 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must meet the stated English requirement, currently Academic IELTS 6.5 overall with 6.0 in speaking, or TOEFL iBT 90 with 20 in speaking, unless an official exemption applies."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Study Support",
+                "title": "Study Cost Contribution",
+                "description": "The NL Scholarship provides €5,000 for the first year of study. The grant is intended as compensation for study-related costs and is not a direct tuition payment.",
+                "status": "Partial"
             }
         ]
     },
@@ -637,6 +1015,38 @@
                 "title": "Language Requirements",
                 "description": "Applicants must provide the language proof required by the chosen EPOS course, such as English proficiency and, where relevant, German proficiency."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Living Support",
+                "title": "Monthly Scholarship Payment",
+                "description": "EPOS provides a monthly scholarship payment; the current DAAD listing states €992 per month for graduates and a higher rate for doctoral candidates.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Insurance Support",
+                "description": "Payments toward health, accident and personal liability insurance are included.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Travel Allowance",
+                "description": "A travel allowance is normally provided unless the travel costs are covered by the home country or another funding source.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Rent Subsidy",
+                "description": "A monthly rent subsidy may be available under certain circumstances.",
+                "status": "Varies"
+            },
+            {
+                "category": "Other",
+                "title": "Family Allowance",
+                "description": "An allowance for accompanying family members may be available in eligible circumstances.",
+                "status": "Varies"
+            }
         ]
     },
     {
@@ -675,6 +1085,38 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must have the language ability needed to carry out the proposed research and satisfy the host institution's requirements. There is no single universal IELTS or TOEFL score for every research field."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Living Support",
+                "title": "Monthly Scholarship",
+                "description": "For the 2027-2028 cycle, research and PhD scholarship holders receive CHF 2,450 per month to cover basic living expenses.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Health Insurance",
+                "description": "Compulsory health-insurance premiums are covered for scholarship holders from non-EU/EFTA countries; EU/EFTA recipients are responsible for their own coverage.",
+                "status": "Varies"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Housing Deposit Grant",
+                "description": "A one-time CHF 600 grant is provided toward the rental deposit.",
+                "status": "Included"
+            },
+            {
+                "category": "Travel",
+                "title": "Return Flight Allowance",
+                "description": "Scholarship holders from non-EU/EFTA countries receive a return-flight allowance after the scholarship according to country-of-origin rules.",
+                "status": "Varies"
+            },
+            {
+                "category": "Travel",
+                "title": "Half-Fare Travelcard",
+                "description": "A Half-Fare Travelcard for Swiss public transport is included as an additional benefit.",
+                "status": "Included"
             }
         ]
     },
@@ -717,6 +1159,32 @@
                 "title": "Language Requirements",
                 "description": "Chinese-taught programs require the appropriate HSK level; master's and doctoral applicants generally need at least HSK 4. Programs taught in another language require the language proof specified by the university, such as IELTS or TOEFL where applicable."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fees",
+                "description": "Tuition fees are covered under the full Chinese Government Scholarship.",
+                "status": "Included"
+            },
+            {
+                "category": "Accommodation",
+                "title": "Accommodation",
+                "description": "Recipients receive free university dormitory accommodation or an accommodation subsidy under applicable program rules.",
+                "status": "Included"
+            },
+            {
+                "category": "Living Support",
+                "title": "Monthly Stipend",
+                "description": "Current full-scholarship standards list CNY 2,500 per month for bachelor's students, CNY 3,000 for master's students and CNY 3,500 for doctoral students.",
+                "status": "Included"
+            },
+            {
+                "category": "Health",
+                "title": "Medical Insurance",
+                "description": "Comprehensive medical insurance is included for scholarship recipients.",
+                "status": "Included"
+            }
         ]
     },
     {
@@ -755,6 +1223,14 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must meet the stated English requirement, currently Academic IELTS 6.5 overall with 6.0 in speaking, or TOEFL iBT 90 with 20 in speaking, unless an official exemption applies."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Study Support",
+                "title": "Study Cost Grant",
+                "description": "The University of Twente Scholarship provides €3,000 to €22,000 for one year toward study-related costs. Eligible students in a two-year program may receive an additional award for the second year under the scholarship conditions.",
+                "status": "Partial"
             }
         ]
     },
@@ -796,6 +1272,14 @@
                 "title": "Language Requirements",
                 "description": "There is no separate Think Big language-test threshold. Applicants must satisfy the English-language requirements of their chosen University of Bristol course."
             }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fee Scholarship",
+                "description": "For 2026 entry, undergraduate awards are £6,500 or £13,000 for up to four years, while postgraduate awards are £6,500, £13,000 or £26,000 for the first year. Awards are applied as tuition fee discounts.",
+                "status": "Partial"
+            }
         ]
     },
     {
@@ -835,6 +1319,14 @@
                 "category": "Language",
                 "title": "Language Requirements",
                 "description": "Applicants must satisfy all English-language entry requirements for their chosen Griffith University undergraduate or postgraduate coursework program."
+            }
+        ],
+        "benefits": [
+            {
+                "category": "Tuition",
+                "title": "Tuition Fee Scholarship",
+                "description": "The published Griffith Remarkable Scholarship terms cover 50% of undergraduate or postgraduate coursework tuition fees for the program duration, subject to ongoing eligibility requirements.",
+                "status": "Partial"
             }
         ]
     }
