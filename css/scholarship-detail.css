@@ -2323,14 +2323,6 @@ nav {
     font-size: .68rem;
 }
 
-@media (hover: hover) and (pointer: fine) {
-    .official-source-btn:hover {
-        background: #1D4ED8;
-        border-color: #1D4ED8;
-        transform: translateY(-2px);
-    }
-}
-
 
 /* REMINDER */
 
@@ -2339,7 +2331,7 @@ nav {
     display: flex;
     align-items: flex-start;
     gap: 13px;
-    margin: 38px 0;
+    margin: 50px 0;
     padding: 18px 20px;
     background: #F8FAFC;
     border: 1px solid #DCE3EC;
@@ -2359,6 +2351,14 @@ nav {
     line-height: 1.65;
 }
 
+
+@media (hover: hover) and (pointer: fine) {
+    .official-source-btn:hover {
+        background: #1D4ED8;
+        border-color: #1D4ED8;
+        transform: translateY(-2px);
+    }
+}
 
 /* TABLET */
 
