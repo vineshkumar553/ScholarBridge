@@ -110,10 +110,12 @@ function renderBenefits(scholarship) {
         Travel: "fa-solid fa-plane-departure",
         Health: "fa-solid fa-shield-heart",
         Insurance: "fa-solid fa-shield-heart",
+        Language: "fa-solid fa-language",
         "Language Course": "fa-solid fa-language",
         Books: "fa-solid fa-book",
         Meals: "fa-solid fa-utensils",
         Visa: "fa-solid fa-passport",
+        "Study Support": "fa-solid fa-book-open",
         Other: "fa-solid fa-gift"
     };
 
@@ -148,9 +150,7 @@ function renderBenefits(scholarship) {
 
                     <div class="benefit-content">
 
-                        <span>
-                            ${benefit.category.toUpperCase()}
-                        </span>
+                        <span>${benefit.category.toUpperCase()}</span>
 
                         <h3>${benefit.title}</h3>
 
@@ -161,6 +161,84 @@ function renderBenefits(scholarship) {
                     <div class="benefit-status ${statusClass}">
                         <i class="${statusIcon}"></i>
                         ${benefit.status}
+                    </div>
+
+                </article>
+            `;
+        }).join("");
+}
+
+
+// REQUIRED DOCUMENTS
+
+function renderDocuments(scholarship) {
+    const documentsList =
+        document.getElementById("documentsList");
+
+    if (!scholarship.documents || scholarship.documents.length === 0) {
+        return;
+    }
+
+    documentsList.innerHTML =
+        scholarship.documents.map(function (document) {
+
+            return `
+                <div class="document-item">
+
+                    <div class="document-check">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+
+                    <div>
+
+                        <span>${document.category.toUpperCase()}</span>
+
+                        <h4>${document.title}</h4>
+
+                        <p>${document.description}</p>
+
+                    </div>
+
+                </div>
+            `;
+        }).join("");
+}
+
+
+// APPLICATION STEPS
+
+function renderApplicationSteps(scholarship) {
+    const applySteps =
+        document.getElementById("applySteps");
+
+    if (
+        !scholarship.applicationSteps ||
+        scholarship.applicationSteps.length === 0
+    ) {
+        return;
+    }
+
+    applySteps.innerHTML =
+        scholarship.applicationSteps.map(function (step, index) {
+
+            const number =
+                String(index + 1).padStart(2, "0");
+
+            return `
+                <article class="apply-step">
+
+                    <div class="apply-step-number">
+                        ${number}
+                    </div>
+
+                    <div class="apply-step-content">
+
+                        <span>${step.stage.toUpperCase()}</span>
+
+                        <h4>${step.title}</h4>
+
+                        <p>${step.description}</p>
+
                     </div>
 
                 </article>
@@ -443,6 +521,8 @@ async function loadScholarshipDetails() {
 
         renderEligibility(scholarship);
         renderBenefits(scholarship);
+        renderDocuments(scholarship);
+        renderApplicationSteps(scholarship);
 
 
     } catch (error) {

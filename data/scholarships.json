@@ -76,6 +76,55 @@
                 "description": "A one-year Turkish language course is included in the scholarship package.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Identity",
+                "title": "Passport or National ID",
+                "description": "Upload a valid identity document, national ID card or passport through the Türkiye Scholarships application system."
+            },
+            {
+                "category": "Academic",
+                "title": "Diploma and Transcript",
+                "description": "Provide your diploma or temporary graduation certificate together with your academic transcript."
+            },
+            {
+                "category": "Photo",
+                "title": "Recent Photograph",
+                "description": "Upload a recent photograph taken within the last year."
+            },
+            {
+                "category": "Tests",
+                "title": "Exam and Language Results",
+                "description": "Upload national, international admission or language-test results when they are required by your selected university or programme."
+            },
+            {
+                "category": "Research",
+                "title": "Research Proposal for PhD",
+                "description": "PhD applicants must also provide a proposed research topic and a written example of previous research work."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Start",
+                "title": "Create a TBBS Application",
+                "description": "Register in the official Türkiye Scholarships application system and complete your personal and academic profile."
+            },
+            {
+                "stage": "Choose",
+                "title": "Select Study Preferences",
+                "description": "Choose eligible universities and programmes in the application system according to your academic background and goals."
+            },
+            {
+                "stage": "Prepare",
+                "title": "Upload Required Documents",
+                "description": "Attach the required identity, academic and any programme-specific test or research documents."
+            },
+            {
+                "stage": "Submit",
+                "title": "Submit and Follow Selection",
+                "description": "Submit the application before the deadline and follow the official evaluation, interview and placement process."
+            }
         ]
     },
     {
@@ -143,6 +192,55 @@
                 "description": "Medical insurance support is included for scholarship holders under the program rules.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Academic",
+                "title": "School Certificates and Transcripts",
+                "description": "Upload the qualification and academic records required for your chosen study level, with translations where required."
+            },
+            {
+                "category": "Motivation",
+                "title": "Motivation Letter",
+                "description": "Prepare the motivation document required by the current call and your selected programme."
+            },
+            {
+                "category": "Language",
+                "title": "Proof of Language Proficiency",
+                "description": "Provide the language certificate or other proof accepted by the chosen host institution."
+            },
+            {
+                "category": "Identity",
+                "title": "Identification Document",
+                "description": "Upload the identification document required in the online application system."
+            },
+            {
+                "category": "Additional",
+                "title": "Programme-Specific Documents",
+                "description": "Doctoral, art and other programmes may require additional materials such as a supervisor statement, research plan or portfolio."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Choose",
+                "title": "Choose Eligible Programmes",
+                "description": "Check the study fields available for your Sending Partner and select up to two eligible programmes."
+            },
+            {
+                "stage": "Partner",
+                "title": "Check Sending Partner Rules",
+                "description": "Confirm whether your country's Sending Partner has an additional national application, nomination process or document requirement."
+            },
+            {
+                "stage": "Submit",
+                "title": "Apply Through the Online System",
+                "description": "Register in the Stipendium Hungaricum application system, complete the form and upload all required documents."
+            },
+            {
+                "stage": "Selection",
+                "title": "Nomination and University Assessment",
+                "description": "Nominated applications are forwarded to Hungarian institutions, which may conduct entrance examinations before the final scholarship decision."
+            }
         ]
     },
     {
@@ -204,6 +302,60 @@
                 "description": "Economy-class airfare to Japan and return travel after completion are provided under MEXT travel rules.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Form",
+                "title": "MEXT Application Form",
+                "description": "Complete the official MEXT application form for your scholarship category and recommendation route."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Transcripts",
+                "description": "Submit transcripts for the school or university years required by the current MEXT guidelines."
+            },
+            {
+                "category": "Qualification",
+                "title": "Graduation Certificate",
+                "description": "Provide a graduation certificate or an expected-graduation certificate if you have not yet completed your current studies."
+            },
+            {
+                "category": "Reference",
+                "title": "Recommendation Letter",
+                "description": "Submit the recommendation letter required for your scholarship category, such as one from your school principal, teacher or academic referee."
+            },
+            {
+                "category": "Health",
+                "title": "Medical Certificate",
+                "description": "Complete the official MEXT Certificate of Health through a medical doctor when required by the application guidelines."
+            },
+            {
+                "category": "Research",
+                "title": "Research Plan for Graduate Applicants",
+                "description": "Research-student applicants must prepare the field of study and research plan and other category-specific documents."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Route",
+                "title": "Check Your Recommendation Route",
+                "description": "Follow the Embassy Recommendation or University Recommendation procedure available for your MEXT category."
+            },
+            {
+                "stage": "Prepare",
+                "title": "Prepare Official MEXT Forms",
+                "description": "Download and complete the current application forms and gather all required supporting documents."
+            },
+            {
+                "stage": "Submit",
+                "title": "Submit to the Correct Institution",
+                "description": "For Embassy Recommendation, submit to the Japanese embassy or consulate in your country; university routes follow the participating university's instructions."
+            },
+            {
+                "stage": "Selection",
+                "title": "Complete Screening and Placement",
+                "description": "Proceed through document screening, examinations or interviews and the later university-placement process where applicable."
+            }
         ]
     },
     {
@@ -250,6 +402,55 @@
                 "title": "Tuition Fee Credit",
                 "description": "The current scholarship provides a tuition fee credit equal to 25% of the value of one year of tuition fees.",
                 "status": "Partial"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Admission",
+                "title": "University Admission Application",
+                "description": "You must first apply for an eligible University of Auckland programme and provide the documents required for admission."
+            },
+            {
+                "category": "Identity",
+                "title": "Certified Identity Document",
+                "description": "University admission may require certified evidence of identity and citizenship, such as relevant passport pages."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Records",
+                "description": "Provide the official academic records requested for admission to your selected programme."
+            },
+            {
+                "category": "Language",
+                "title": "English Language Evidence",
+                "description": "Submit English-language evidence if it is required for admission to your programme."
+            },
+            {
+                "category": "Scholarship",
+                "title": "Supplementary Scholarship Form",
+                "description": "There is no general scholarship application; eligible applicants are invited by the University to complete a supplementary scholarship form."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Admission",
+                "title": "Apply to the University",
+                "description": "Submit an application for an eligible University of Auckland programme and complete the admission requirements."
+            },
+            {
+                "stage": "Review",
+                "title": "Wait for Eligibility Review",
+                "description": "The University identifies eligible international applicants through the admission process."
+            },
+            {
+                "stage": "Invite",
+                "title": "Complete the Invitation Form",
+                "description": "If invited for scholarship consideration, complete the supplementary application requested by the University."
+            },
+            {
+                "stage": "Selection",
+                "title": "Await the Scholarship Decision",
+                "description": "The relevant faculty or University committee considers eligible candidates and recommends scholarship recipients."
             }
         ]
     },
@@ -318,6 +519,60 @@
                 "description": "Korean language training costs are covered for scholarship tracks that include the language-training year.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Forms",
+                "title": "GKS Application Forms",
+                "description": "Complete the official GKS application form together with the personal statement, study plan and required applicant agreements."
+            },
+            {
+                "category": "Reference",
+                "title": "Recommendation Letter",
+                "description": "Provide the recommendation letter required by the current GKS application guidelines."
+            },
+            {
+                "category": "Citizenship",
+                "title": "Citizenship and Family Documents",
+                "description": "Submit proof of the applicant's and parents' citizenship and the required proof of family relationship."
+            },
+            {
+                "category": "Qualification",
+                "title": "Graduation Certificate",
+                "description": "Provide the graduation or expected-graduation certificate required for your study level."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Transcript",
+                "description": "Submit the academic transcript for your most recent educational programme in the required format."
+            },
+            {
+                "category": "Health",
+                "title": "Personal Medical Assessment",
+                "description": "Complete the medical assessment form included in the GKS application documents and provide later medical documents if requested."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Route",
+                "title": "Choose Embassy or University Track",
+                "description": "Apply through the Korean Embassy in your country or directly to a designated university, depending on the track and degree programme."
+            },
+            {
+                "stage": "Prepare",
+                "title": "Complete the GKS Forms",
+                "description": "Prepare the official forms and all required citizenship, academic, recommendation and supporting documents."
+            },
+            {
+                "stage": "Submit",
+                "title": "Submit to the First-Round Institution",
+                "description": "Submit according to the current instructions for your chosen embassy or university track."
+            },
+            {
+                "stage": "Selection",
+                "title": "Follow the Multi-Stage Selection",
+                "description": "Successful first-round candidates proceed through the later NIIED and university review stages before final selection."
+            }
         ]
     },
     {
@@ -385,6 +640,55 @@
                 "description": "For eligible students who need it, the scholarship finances the Romanian-language preparatory year.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Qualification",
+                "title": "Diplomas and Certificates",
+                "description": "Upload copies of completed diplomas or the relevant graduation certificates, with authorised translations where required."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Transcripts",
+                "description": "Provide transcripts for completed studies, together with authorised translations where required."
+            },
+            {
+                "category": "Identity",
+                "title": "Birth Certificate and Passport",
+                "description": "Upload a copy of your birth certificate or equivalent document and the first three pages of a valid passport."
+            },
+            {
+                "category": "Profile",
+                "title": "Curriculum Vitae",
+                "description": "Submit a CV in English, French or Romanian."
+            },
+            {
+                "category": "Research",
+                "title": "Doctoral Research Documents",
+                "description": "PhD applicants must also provide the required letter of intent, research information and agreement of a doctoral tutor."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Start",
+                "title": "Create a Study in Romania Account",
+                "description": "Create an account on the official scholarship platform and complete the requested personal and study information."
+            },
+            {
+                "stage": "Prepare",
+                "title": "Prepare and Authenticate Documents",
+                "description": "Gather the required academic and identity documents, including apostille or authentication and translations where applicable."
+            },
+            {
+                "stage": "Submit",
+                "title": "Submit the Application Online",
+                "description": "Upload the documents and submit the complete scholarship file only through the official Study in Romania platform."
+            },
+            {
+                "stage": "Result",
+                "title": "Follow Results and Enrolment",
+                "description": "If selected, accept the scholarship, obtain the Letter of Acceptance, complete visa formalities and follow the host university's enrolment instructions."
+            }
         ]
     },
     {
@@ -451,6 +755,60 @@
                 "title": "Meal Services",
                 "description": "Regional right-to-study packages can include subsidised or free canteen meals, with details varying by region and student category.",
                 "status": "Varies"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Identity",
+                "title": "Passport or Identity Document",
+                "description": "Regional applications normally require valid identification and the personal details requested by the relevant right-to-study body."
+            },
+            {
+                "category": "University",
+                "title": "University Admission or Enrolment Details",
+                "description": "Provide the university and degree information required by the regional call, including enrolment details when applicable."
+            },
+            {
+                "category": "Financial",
+                "title": "Family Income and Asset Documents",
+                "description": "International students with income or assets abroad normally need certified financial and family documents for ISEE Parificato or the regional equivalent."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic or Merit Information",
+                "description": "Provide academic information needed to verify enrolment and any merit or credit conditions in the relevant regional call."
+            },
+            {
+                "category": "Housing",
+                "title": "Rental or Housing Documents",
+                "description": "Students claiming off-site status may need a registered rental contract or other housing evidence according to regional rules."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Region",
+                "title": "Identify the Regional DSU Body",
+                "description": "Check which regional right-to-study authority serves your chosen university and read that authority's current annual call."
+            },
+            {
+                "stage": "University",
+                "title": "Complete University Admission or Enrolment",
+                "description": "Follow your university's admission or enrolment procedure and obtain the student details needed for the regional scholarship application."
+            },
+            {
+                "stage": "Financial",
+                "title": "Prepare Economic Documentation",
+                "description": "Arrange the required income, asset and family documents and obtain ISEE Parificato or the regional equivalent where required."
+            },
+            {
+                "stage": "Submit",
+                "title": "Apply Through the Regional Portal",
+                "description": "Submit the regional scholarship application and any housing or meal-service requests before the applicable deadline."
+            },
+            {
+                "stage": "Ranking",
+                "title": "Check Rankings and Follow-Up Requests",
+                "description": "Monitor provisional and final rankings and provide corrections or additional documents if the regional body requests them."
             }
         ]
     },
@@ -530,6 +888,55 @@
                 "description": "Comprehensive insurance cover is provided for the duration of the scholarship.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Identity",
+                "title": "Identity, Birth Certificate and Passport",
+                "description": "Upload the identification documents and certified true copies of the birth certificate and passport required by the scholarship form."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Qualifications and Transcripts",
+                "description": "Provide certified true copies of academic qualifications, certificates, testimonials and transcripts, with certified English translations when needed."
+            },
+            {
+                "category": "Language",
+                "title": "English Proficiency Evidence",
+                "description": "Provide the English-language result required for eligibility, such as an accepted IELTS, TOEFL or equivalent qualification."
+            },
+            {
+                "category": "Reference",
+                "title": "References and Recommendations",
+                "description": "Submit the required referee references and recommendation forms with the scholarship application."
+            },
+            {
+                "category": "Additional",
+                "title": "Institution-Specific Documents",
+                "description": "The selected Brunei institution may require additional admission documents through its own application portal."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Choose",
+                "title": "Choose a Programme and Institution",
+                "description": "Review the programmes offered by participating Brunei institutions and confirm that you meet both scholarship and course requirements."
+            },
+            {
+                "stage": "Submit",
+                "title": "Complete the BDGS Application",
+                "description": "Fill in the official online scholarship application and upload the required certified documents."
+            },
+            {
+                "stage": "University",
+                "title": "Complete Any Separate University Application",
+                "description": "Applicants to institutions such as UBD or UTB must also complete the university's own online admission application when required."
+            },
+            {
+                "stage": "Selection",
+                "title": "Attend Further Assessment if Requested",
+                "description": "The institution may invite applicants for an interview or language or other written assessment before final selection."
+            }
         ]
     },
     {
@@ -603,6 +1010,60 @@
                 "description": "Visa and registration costs are covered under the grant program.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Nomination",
+                "title": "Nomination Form",
+                "description": "Complete the nomination form required for the first stage through the relevant government authority, ministry or embassy in your country."
+            },
+            {
+                "category": "Academic",
+                "title": "Diplomas and Transcripts",
+                "description": "Provide diplomas and transcripts from your previous school or higher education institution."
+            },
+            {
+                "category": "Health",
+                "title": "Medical Certificate",
+                "description": "Submit the required recent medical certificate, including the health tests specified in the current call."
+            },
+            {
+                "category": "Identity",
+                "title": "Valid Passport",
+                "description": "Provide a clear copy of a valid passport confirming your identity and nationality."
+            },
+            {
+                "category": "Profile",
+                "title": "CV and Motivation Letter",
+                "description": "Prepare an up-to-date CV or resume and the motivation letter required by the current call."
+            },
+            {
+                "category": "Language",
+                "title": "Language Proficiency Proof",
+                "description": "Provide accepted proof of proficiency for the language of instruction, unless an exemption in the current call applies."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Nomination",
+                "title": "Apply Through Your Nominating Authority",
+                "description": "Submit the first-stage application to the relevant government authority, ministry or embassy in your country; direct first-stage applications are not considered."
+            },
+            {
+                "stage": "Approval",
+                "title": "Receive Official Nomination",
+                "description": "Only applicants officially nominated by their respective country proceed to the scholarship's second stage."
+            },
+            {
+                "stage": "SIACAS",
+                "title": "Apply Through SIACAS",
+                "description": "Nominated candidates apply through the Study in Azerbaijan Centralized Admission Service and select the Heydar Aliyev grant admission channel."
+            },
+            {
+                "stage": "Selection",
+                "title": "Choose Programmes and Follow Evaluation",
+                "description": "Select up to the permitted number of study choices, upload the required documents and track later evaluation notifications through the application system."
+            }
         ]
     },
     {
@@ -673,6 +1134,50 @@
                 "title": "Additional Allowances",
                 "description": "Chevening also provides an arrival allowance, departure allowance and other eligible travel or TB-testing contributions under the award terms.",
                 "status": "Varies"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Academic",
+                "title": "Undergraduate Degree Certificate",
+                "description": "Applicants invited to interview must upload the official undergraduate degree certificate required by Chevening."
+            },
+            {
+                "category": "Reference",
+                "title": "Two Reference Letters",
+                "description": "Interview-stage applicants must upload two English reference letters from the referees named in the application."
+            },
+            {
+                "category": "Courses",
+                "title": "UK Master's Course Choices",
+                "description": "The application requires eligible UK master's course choices, and successful candidates must later meet the university-offer requirements in the Chevening timeline."
+            },
+            {
+                "category": "Profile",
+                "title": "Education and Work Information",
+                "description": "Prepare accurate education, work-experience and other background information needed to complete the online Chevening application."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Register",
+                "title": "Start the Online Application",
+                "description": "Register through the official Chevening online application system for your eligible country or territory."
+            },
+            {
+                "stage": "Complete",
+                "title": "Complete the Application Sections",
+                "description": "Enter your education, work experience, course choices and written responses and provide referee contact details."
+            },
+            {
+                "stage": "Submit",
+                "title": "Submit Before the Deadline",
+                "description": "Review the application carefully and submit it through the Chevening system; initial submission does not require education-document uploads."
+            },
+            {
+                "stage": "Interview",
+                "title": "Upload Documents and Attend Interview",
+                "description": "If shortlisted, upload the required degree certificate and reference letters and complete the interview and later university-offer requirements."
             }
         ]
     },
@@ -745,6 +1250,50 @@
                 "description": "Additional support can be available for circumstances such as disability or eligible family situations, subject to the scholarship rules.",
                 "status": "Varies"
             }
+        ],
+        "documents": [
+            {
+                "category": "Identity",
+                "title": "Passport or National ID",
+                "description": "Upload proof of citizenship or accepted refugee status in an eligible Commonwealth country."
+            },
+            {
+                "category": "Academic",
+                "title": "Full Higher-Education Transcripts",
+                "description": "Provide complete transcripts for all higher-education qualifications, including current study where applicable, with certified translations if needed."
+            },
+            {
+                "category": "Reference",
+                "title": "Two References",
+                "description": "Upload signed references from at least two people in the format required by the Commonwealth Scholarship Commission."
+            },
+            {
+                "category": "Nominator",
+                "title": "Nominating-Agency Documents",
+                "description": "Your national nominating agency may require additional forms or documents beyond the CSC application."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Check",
+                "title": "Check Your Nominating Agency",
+                "description": "Confirm the rules, deadline and any additional requirements of the eligible nominating agency for your country."
+            },
+            {
+                "stage": "CSC",
+                "title": "Complete the CSC Central Application",
+                "description": "Create the application in CSC Central and complete all required scholarship questions and study information."
+            },
+            {
+                "stage": "Upload",
+                "title": "Upload Supporting Documents",
+                "description": "Upload citizenship proof, full transcripts, references and any other required supporting material before the application closes."
+            },
+            {
+                "stage": "Nomination",
+                "title": "Complete Nomination and CSC Selection",
+                "description": "The nominating agency selects candidates to nominate to the CSC, after which the Commission makes the final scholarship selections."
+            }
         ]
     },
     {
@@ -792,6 +1341,50 @@
                 "title": "Tuition Fee Reduction",
                 "description": "The Vice-Chancellor's International Scholarship provides a one-off award of up to AUD 10,000 applied toward tuition fees.",
                 "status": "Partial"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Academic",
+                "title": "Transcripts and Qualifications",
+                "description": "Provide the academic transcripts and qualification documents required for your Macquarie University course application."
+            },
+            {
+                "category": "Language",
+                "title": "English Language Evidence",
+                "description": "Submit an accepted English-language result if it is required for admission to your chosen course."
+            },
+            {
+                "category": "Admission",
+                "title": "Macquarie Student Number",
+                "description": "After your course application is processed, you need the Macquarie University Student Number to complete the scholarship application."
+            },
+            {
+                "category": "Scholarship",
+                "title": "Online Scholarship Form",
+                "description": "Complete the dedicated online scholarship form and identify the Vice-Chancellor's International Scholarship as instructed."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Course",
+                "title": "Apply for a Macquarie Course",
+                "description": "Submit the online course application and upload the academic and language documents required for admission."
+            },
+            {
+                "stage": "Number",
+                "title": "Receive Your Student Number",
+                "description": "Once the course application is processed, use the Macquarie University Student Number issued to you."
+            },
+            {
+                "stage": "Scholarship",
+                "title": "Submit the Scholarship Form",
+                "description": "Complete the online scholarship application and enter the scholarship name or code requested by Macquarie."
+            },
+            {
+                "stage": "Result",
+                "title": "Check Confirmation and Outcome",
+                "description": "Confirm that the scholarship application was successfully submitted and follow Macquarie communications for the result."
             }
         ]
     },
@@ -864,6 +1457,55 @@
                 "description": "Pre-academic training costs and the first block of the International Student Ambassador Programme are covered under the scholarship package.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Profile",
+                "title": "Curriculum Vitae",
+                "description": "Upload an up-to-date CV of no more than two A4 pages covering relevant education, experience and achievements."
+            },
+            {
+                "category": "Motivation",
+                "title": "Scholarship Motivation Letter",
+                "description": "Complete the scholarship motivation letter using Maastricht University's required template."
+            },
+            {
+                "category": "Academic",
+                "title": "Proof of Academic Excellence",
+                "description": "Upload your latest university transcript or official GPA document together with an explanation of the grading system."
+            },
+            {
+                "category": "Financial",
+                "title": "Financial Needs Statement",
+                "description": "Provide the requested personal statement explaining your financial circumstances and why scholarship support would benefit you."
+            },
+            {
+                "category": "Reference",
+                "title": "Reference Letter and Referee Details",
+                "description": "Upload the required reference letter and provide the referee's current institutional contact details."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Master",
+                "title": "Apply for an Eligible Master's Programme",
+                "description": "Apply to a participating Maastricht University master's programme through Studielink and complete the programme admission file."
+            },
+            {
+                "stage": "Account",
+                "title": "Receive Your UM Student ID",
+                "description": "After the programme application, use your UM student number and account to access the scholarship application."
+            },
+            {
+                "stage": "Submit",
+                "title": "Complete the Scholarship Form",
+                "description": "Upload the required CV, motivation, academic, financial and reference documents and submit the scholarship form once."
+            },
+            {
+                "stage": "Selection",
+                "title": "Follow Faculty Review and Interview",
+                "description": "Complete applications are ranked by the faculties, with shortlisted candidates invited to the later scholarship interview and decision process."
+            }
         ]
     },
     {
@@ -929,6 +1571,55 @@
                 "description": "Full residence support is provided for four years of undergraduate study.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Nomination",
+                "title": "School Nomination",
+                "description": "Your secondary school must officially nominate you through the University of Toronto Pearson nomination process."
+            },
+            {
+                "category": "Admission",
+                "title": "University of Toronto Application",
+                "description": "Submit an undergraduate admission application to the University of Toronto before completing the Pearson scholarship application."
+            },
+            {
+                "category": "Academic",
+                "title": "Secondary School Records",
+                "description": "Provide the academic records and supporting documents required for your University of Toronto undergraduate admission application."
+            },
+            {
+                "category": "Language",
+                "title": "English Language Evidence",
+                "description": "Submit English-language proof if the University of Toronto requires it for your admission application."
+            },
+            {
+                "category": "Scholarship",
+                "title": "Pearson Scholarship Application",
+                "description": "After nomination and the U of T admission application, complete the private Pearson scholarship form and required documentation."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Nominate",
+                "title": "Secure School Nomination",
+                "description": "Ask your eligible secondary school to nominate you through the official Lester B. Pearson nomination process."
+            },
+            {
+                "stage": "Admission",
+                "title": "Apply to the University of Toronto",
+                "description": "Submit your undergraduate admission application and choose your intended programmes before the Pearson admission deadline."
+            },
+            {
+                "stage": "Link",
+                "title": "Receive the Private Pearson Link",
+                "description": "After nomination and your U of T application, the University sends access to the Pearson scholarship application."
+            },
+            {
+                "stage": "Submit",
+                "title": "Complete the Scholarship Application",
+                "description": "Submit the Pearson application and required documentation before the scholarship deadline and follow the University's decision process."
+            }
         ]
     },
     {
@@ -975,6 +1666,50 @@
                 "title": "Study Cost Contribution",
                 "description": "The NL Scholarship provides €5,000 for the first year of study. The grant is intended as compensation for study-related costs and is not a direct tuition payment.",
                 "status": "Partial"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Admission",
+                "title": "Master's Admission Application",
+                "description": "You must first apply to an eligible University of Twente master's programme before you can apply for the NL Scholarship."
+            },
+            {
+                "category": "Student",
+                "title": "University Student Number",
+                "description": "Use the University of Twente student number issued through your admission or Studielink application to access the scholarship form."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Admission Documents",
+                "description": "Your programme application must contain the academic records required to assess admission and scholarship eligibility."
+            },
+            {
+                "category": "Language",
+                "title": "English Language Evidence",
+                "description": "Provide the English-language proof required for admission to the selected University of Twente master's programme."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Master",
+                "title": "Apply for a Master's Programme",
+                "description": "Start and complete your application for an eligible University of Twente master's programme."
+            },
+            {
+                "stage": "Number",
+                "title": "Receive Your Student Number",
+                "description": "Use the student number linked to your University of Twente application to open the scholarship form."
+            },
+            {
+                "stage": "Scholarship",
+                "title": "Complete the NL Scholarship Form",
+                "description": "Submit the scholarship application through the University of Twente scholarship form during the application window."
+            },
+            {
+                "stage": "Result",
+                "title": "Wait for the Scholarship Result",
+                "description": "The University reviews eligible scholarship applications and communicates the result according to the published schedule."
             }
         ]
     },
@@ -1047,6 +1782,65 @@
                 "description": "An allowance for accompanying family members may be available in eligible circumstances.",
                 "status": "Varies"
             }
+        ],
+        "documents": [
+            {
+                "category": "Form",
+                "title": "EPOS Application Form and Checklist",
+                "description": "Complete the current EPOS application form and any required application checklist."
+            },
+            {
+                "category": "Profile",
+                "title": "Curriculum Vitae",
+                "description": "Provide a complete CV in reverse chronological order with your education and professional experience."
+            },
+            {
+                "category": "Motivation",
+                "title": "Letter of Motivation",
+                "description": "Write the required motivation letter explaining your academic, professional and development-related reasons for the selected course or courses."
+            },
+            {
+                "category": "Reference",
+                "title": "Employer Recommendation",
+                "description": "Provide the current employer recommendation in the format required by EPOS."
+            },
+            {
+                "category": "Experience",
+                "title": "Employment Certificates",
+                "description": "Submit certificates showing the required relevant professional experience after your bachelor's degree."
+            },
+            {
+                "category": "Language",
+                "title": "Language Proficiency Proof",
+                "description": "Provide the accepted English and, where applicable, German language evidence required by the selected course."
+            },
+            {
+                "category": "Academic",
+                "title": "Degree Certificates and Transcripts",
+                "description": "Submit copies of higher-education degree certificates and the complete transcript of records, with translations when necessary."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Course",
+                "title": "Choose an Eligible EPOS Course",
+                "description": "Review the EPOS course list and the specific admission and scholarship requirements of the programme you want to join."
+            },
+            {
+                "stage": "Prepare",
+                "title": "Prepare the Complete EPOS File",
+                "description": "Gather the DAAD forms, CV, motivation, employer documents, language evidence and academic records."
+            },
+            {
+                "stage": "Submit",
+                "title": "Apply Directly to the University or Course",
+                "description": "Submit the complete application directly to the selected EPOS postgraduate programme according to its procedure; applications sent to DAAD centrally are not forwarded."
+            },
+            {
+                "stage": "Selection",
+                "title": "Follow Course and DAAD Selection",
+                "description": "The participating programme assesses applications and forwards scholarship candidates through the EPOS selection process."
+            }
         ]
     },
     {
@@ -1118,6 +1912,65 @@
                 "description": "A Half-Fare Travelcard for Swiss public transport is included as an additional benefit.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Profile",
+                "title": "Complete Curriculum Vitae",
+                "description": "Provide a complete CV covering education, degrees, awards, positions, publications, teaching and practical experience."
+            },
+            {
+                "category": "Motivation",
+                "title": "Letter of Motivation",
+                "description": "Prepare the required motivation letter explaining the purpose of the Swiss research stay and its importance for your future career."
+            },
+            {
+                "category": "Research",
+                "title": "Research Proposal",
+                "description": "Submit a detailed research proposal with timeline using the official FCS or ESKAS format available through the application system."
+            },
+            {
+                "category": "Supervisor",
+                "title": "Swiss Supervisor Support",
+                "description": "Provide a letter of support and short CV from an eligible academic supervisor at a Swiss higher education institution."
+            },
+            {
+                "category": "Reference",
+                "title": "Academic Referee Details",
+                "description": "Provide the required academic referee email addresses so recommendation letters can be requested through the application system."
+            },
+            {
+                "category": "Academic",
+                "title": "Certificates and Transcripts",
+                "description": "Upload copies of previous university certificates and transcripts with certified translations where required."
+            },
+            {
+                "category": "Identity",
+                "title": "Passport Copy",
+                "description": "Provide a copy of your passport and any residence documentation required by your situation."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Country",
+                "title": "Check Your Country Offer",
+                "description": "Confirm the scholarship type, eligibility conditions and application window available for your country of origin."
+            },
+            {
+                "stage": "Supervisor",
+                "title": "Secure a Swiss Academic Supervisor",
+                "description": "Find an eligible supervisor in Switzerland who supports your proposed project and provides the required support letter."
+            },
+            {
+                "stage": "Online",
+                "title": "Register and Complete the Online Application",
+                "description": "Register in Grants Online and prepare the CV, motivation, research proposal, supervisor and academic documents."
+            },
+            {
+                "stage": "Selection",
+                "title": "Submit and Follow FCS Selection",
+                "description": "Submit the complete application by your country's deadline and follow the review by the Swiss representation and Federal Commission for Scholarships."
+            }
         ]
     },
     {
@@ -1185,6 +2038,65 @@
                 "description": "Comprehensive medical insurance is included for scholarship recipients.",
                 "status": "Included"
             }
+        ],
+        "documents": [
+            {
+                "category": "Form",
+                "title": "Chinese Government Scholarship Application",
+                "description": "Complete the online Chinese Government Scholarship application for the programme category and agency number applicable to your route."
+            },
+            {
+                "category": "Identity",
+                "title": "Passport Copy",
+                "description": "Provide a clear copy of the passport information page or other identification required by the current application guide."
+            },
+            {
+                "category": "Academic",
+                "title": "Highest Diploma and Transcripts",
+                "description": "Upload the highest completed diploma and academic transcripts, with notarised translations where the receiving institution requires them."
+            },
+            {
+                "category": "Plan",
+                "title": "Study or Research Plan",
+                "description": "Prepare the study plan or research proposal required for your study level and selected university."
+            },
+            {
+                "category": "Reference",
+                "title": "Recommendation Letters",
+                "description": "Graduate and doctoral routes commonly require academic recommendation letters according to the current university or programme instructions."
+            },
+            {
+                "category": "Language",
+                "title": "Language Proficiency Proof",
+                "description": "Provide HSK or other language-test evidence required by the selected programme and university."
+            },
+            {
+                "category": "Health",
+                "title": "Foreigner Physical Examination Form",
+                "description": "Where required by the current programme or university, submit the official Foreigner Physical Examination Form and related health documentation."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Route",
+                "title": "Confirm Your CSC Application Route",
+                "description": "Check whether you are applying through a bilateral or embassy route, a Chinese university route or another official CSC programme channel."
+            },
+            {
+                "stage": "University",
+                "title": "Check University Requirements",
+                "description": "Select eligible institutions and confirm their agency number, programme requirements and any separate university application."
+            },
+            {
+                "stage": "Submit",
+                "title": "Complete the CSC Online Application",
+                "description": "Enter the correct programme category and agency information, upload the required documents and submit the online scholarship application."
+            },
+            {
+                "stage": "Follow",
+                "title": "Complete Any University or Embassy Steps",
+                "description": "Submit any separate institution or nominating-authority application and follow later admission and scholarship-result notices."
+            }
         ]
     },
     {
@@ -1231,6 +2143,50 @@
                 "title": "Study Cost Grant",
                 "description": "The University of Twente Scholarship provides €3,000 to €22,000 for one year toward study-related costs. Eligible students in a two-year program may receive an additional award for the second year under the scholarship conditions.",
                 "status": "Partial"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Admission",
+                "title": "Conditional Admission Letter",
+                "description": "You must first apply for an eligible University of Twente master's programme and receive conditional admission before applying for UTS."
+            },
+            {
+                "category": "Student",
+                "title": "University of Twente Student Number",
+                "description": "Use the student number from your University of Twente or Studielink application to access the scholarship application."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Admission Documents",
+                "description": "Your master's application must include the academic records used to assess your admission and scholarship profile."
+            },
+            {
+                "category": "Language",
+                "title": "English Language Evidence",
+                "description": "Provide the English-language evidence required for the selected master's programme."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Master",
+                "title": "Apply for a Master's Programme",
+                "description": "Submit an application for an eligible University of Twente master's programme well before the scholarship deadline."
+            },
+            {
+                "stage": "Admission",
+                "title": "Receive Conditional Admission",
+                "description": "Wait until the University issues the conditional admission needed for the UTS application."
+            },
+            {
+                "stage": "Scholarship",
+                "title": "Submit the UTS Application",
+                "description": "Use your student number to complete and submit the University of Twente Scholarship application form."
+            },
+            {
+                "stage": "Result",
+                "title": "Follow the Scholarship Decision",
+                "description": "The University reviews eligible UTS applications and announces results according to the published scholarship schedule."
             }
         ]
     },
@@ -1280,6 +2236,50 @@
                 "description": "For 2026 entry, undergraduate awards are £6,500 or £13,000 for up to four years, while postgraduate awards are £6,500, £13,000 or £26,000 for the first year. Awards are applied as tuition fee discounts.",
                 "status": "Partial"
             }
+        ],
+        "documents": [
+            {
+                "category": "Admission",
+                "title": "University of Bristol Application",
+                "description": "You must first submit an application for an eligible University of Bristol undergraduate or master's programme."
+            },
+            {
+                "category": "ID",
+                "title": "Bristol Application ID",
+                "description": "Have your Student ID, Kaplan ID or UCAS ID ready because it is required to begin the Think Big scholarship form."
+            },
+            {
+                "category": "Answers",
+                "title": "Scholarship Question Responses",
+                "description": "Prepare concise responses about achievements, ambassadorial potential, your reasons for studying at Bristol and your future plans."
+            },
+            {
+                "category": "Profile",
+                "title": "Matching Personal Details",
+                "description": "Use personal and course details that match your Bristol study application so the scholarship system can identify your eligibility."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Course",
+                "title": "Apply to Study at Bristol",
+                "description": "Submit an application for an eligible Bristol programme and obtain your University application ID."
+            },
+            {
+                "stage": "Prepare",
+                "title": "Draft Your Scholarship Answers",
+                "description": "Prepare your responses to the Think Big application questions before entering them into the form."
+            },
+            {
+                "stage": "Submit",
+                "title": "Complete the Think Big Form",
+                "description": "Fill in the personal details, application questions and terms sections and submit the form before the deadline."
+            },
+            {
+                "stage": "Confirm",
+                "title": "Check Submission Confirmation",
+                "description": "Look for the confirmation email and follow University communications for the later scholarship outcome."
+            }
         ]
     },
     {
@@ -1327,6 +2327,50 @@
                 "title": "Tuition Fee Scholarship",
                 "description": "The published Griffith Remarkable Scholarship terms cover 50% of undergraduate or postgraduate coursework tuition fees for the program duration, subject to ongoing eligibility requirements.",
                 "status": "Partial"
+            }
+        ],
+        "documents": [
+            {
+                "category": "Admission",
+                "title": "Griffith Study Application",
+                "description": "Applicants need an application or offer for an eligible Griffith University undergraduate or postgraduate coursework programme."
+            },
+            {
+                "category": "Academic",
+                "title": "Academic Results",
+                "description": "Provide the academic records used by Griffith to assess admission and scholarship academic merit."
+            },
+            {
+                "category": "Language",
+                "title": "English Language Evidence",
+                "description": "Submit English-language evidence if it is required for admission to the selected Griffith programme."
+            },
+            {
+                "category": "Scholarship",
+                "title": "Scholarship Application Information",
+                "description": "Provide the information and any supporting material requested by the scholarship application process for the relevant intake."
+            }
+        ],
+        "applicationSteps": [
+            {
+                "stage": "Check",
+                "title": "Confirm the Scholarship Is Open",
+                "description": "The Remarkable Scholarship has been shown as closed for new applicants on recent Griffith information, so first confirm whether it is offered for your intended intake."
+            },
+            {
+                "stage": "Course",
+                "title": "Apply for an Eligible Griffith Programme",
+                "description": "If the scholarship is available, complete the admission application for an eligible undergraduate or postgraduate coursework programme."
+            },
+            {
+                "stage": "Scholarship",
+                "title": "Follow the Published Scholarship Procedure",
+                "description": "Complete any scholarship application or assessment required for the current intake using Griffith's official instructions."
+            },
+            {
+                "stage": "Result",
+                "title": "Follow the Scholarship Outcome",
+                "description": "Check Griffith communications for the scholarship decision and any conditions that apply to maintaining the award."
             }
         ]
     }
